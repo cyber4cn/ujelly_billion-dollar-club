@@ -1,2 +1,0 @@
-INSERT IGNORE INTO  `wpjb_mail` (`id`, `sent_to`, `sent_when`, `mail_title`, `mail_body`, `mail_from`) VALUES
-(8, 3, 'E-mail sent to applicant who applied for job', 'Your application has been sent', 'Hello,\r\nyour application has been sent successfully. If employer will find your resume interesting you should be contacted shortly.\r\nThank you for using our job board.\r\n\r\nBest Regards\r\nJob Board Team', '');
