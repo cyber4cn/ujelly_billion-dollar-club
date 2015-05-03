@@ -2,5 +2,3 @@
 
 ------------------
 ³ÂÎÄ±ò£¨kevin£©
-Email£ºkevin@vinci.pro
-Call me£º156-0602-6553
