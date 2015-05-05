@@ -21,7 +21,7 @@
 /*
 Template Name: 公司估值历史数据页面
 */
-global $wpdb;
+global $wpdb, $postdata1;
 $user_ID = get_current_user_id();
 /*echo "<script language='javascript'>";
  echo "alert(\"+$user_ID +\");"; 
@@ -39,38 +39,65 @@ if (user_ID != null) {
         'offset' => 0
     ); //(查询参数，这里是浏览数据功能)
     $result = coolwp_get_valuations($query);
-    while (have_posts()):
-        the_post();
-        echo 'have_posts():' . have_posts() . '<br/>';
-        echo 'the_post():' . the_post() . '<br/>';
-        $post = the_post();
-        echo '$post1:' . $post . '<br/>';
-        echo 'the_post()1:' . the_post() . '<br/>';
-        echo 'have_posts()==1:' . (have_posts() == 1) . '<br/>';
-        get_template_part('content', get_post_format());
-        echo '$post2:' . $post . '<br/>';
-        echo 'the_post()2:' . the_post() . '<br/>';
-        echo '$post->posttype:' . $post->posttype;
-        echo '$post->company_id:' . $post->company_id;
-        echo '$post->valuation:' . $post->valuation;
-        echo '$post->valuation_date:' . $post->valuation_date;
-        echo '$post->totale_quity_funding:' . $post->totale_quity_funding;
-        echo '$post->rounds_offunding:' . $post->rounds_offunding;
-        echo '$post->product_name:' . $post->product_name;
-        echo '$post->oonline_date:' . $post->oonline_date;
-    endwhile;
-    if (have_posts() == 1) {
-        $post = the_post();
-        echo '$post2:' . $post . '<br/>';
-        echo 'the_post()2:' . the_post() . '<br/>';
-        echo '$post->posttype:' . $post->posttype;
-        echo '$post->company_id:' . $post->company_id;
-        echo '$post->valuation:' . $post->valuation;
-        echo '$post->valuation_date:' . $post->valuation_date;
-        echo '$post->totale_quity_funding:' . $post->totale_quity_funding;
-        echo '$post->rounds_offunding:' . $post->rounds_offunding;
-        echo '$post->product_name:' . $post->product_name;
-        echo '$post->oonline_date:' . $post->oonline_date;
+	
+	echo '$_POST[action]:' .  $_POST['action'] . '<br/>'; 
+
+    if ($_POST[action]) {
+		
+		foreach ($_POST as $key => $value) {
+			echo $key . ':' . $value . '<br/>';
+			$position = strpos($key,'company_id');
+			echo $position . '<br/>';
+			if ($position === 0)
+				$postdata1['company_id'] = $value;
+			$position = strpos($key,'valuation');
+			echo $position . '<br/>';
+			if ($position === 0)
+				$postdata1['valuation'] = $value;
+			$position = strpos($key,'valuation_date');
+			echo $position . '<br/>';
+			if ($position === 0)
+				$postdata1['valuation_date'] = $value;
+			$position = strpos($key,'totale_quity_funding');
+			echo $position . '<br/>';
+			if ($position === 0)
+				$postdata1['totale_quity_funding'] = $value;
+			$position = strpos($key,'rounds_offunding');
+			echo $position . '<br/>';
+			if ($position === 0)
+				$postdata1['rounds_offunding'] = $value;
+			$position = strpos($key,'product_name');
+			echo $position . '<br/>';
+			if ($position === 0)
+				$postdata1['product_name'] = $value;
+			$position = strpos($key,'oonline_date');
+			echo $position . '<br/>';
+			if ($position === 0)
+				$postdata1['oonline_date'] = $value;
+			
+          /*  if (false === strpos($key, self::DATA_PREFIX)) {
+                $this->extra_fields[$key] = $value;
+                continue;
+            }
+
+            $field = substr($key, $pfx_length);
+
+            if (is_array($value)) {
+                $this->data[ $field ] = stripslashes_deep($value);
+            } else {
+                $this->data[ $field ] = stripslashes(trim($value));
+            }*/
+
+        }
+		echo 'postdata1:' . $postdata1 . '<br/>';
+        echo '$post->posttype:' . $postdata1['posttype'] . '<br/>';
+        echo '$post->company_id:' . $postdata1['company_id'] . '<br/>';
+        echo '$post->valuation:' . $postdata1['valuation'] . '<br/>';
+        echo '$post->valuation_date:' . $postdata1['valuation_date'] . '<br/>';
+        echo '$post->totale_quity_funding:' . $postdata1['totale_quity_funding'] . '<br/>';
+        echo '$post->rounds_offunding:' . $postdata1['rounds_offunding'] . '<br/>';
+        echo '$post->product_name:' . $postdata1['product_name'] . '<br/>';
+        echo '$post->oonline_date:' . $postdata1['oonline_date'] . '<br/>';
         if (strcasecmp($_POST['posttype'], 'modify') == 0) {
             $id = $_POST['id'];
             $company_id = $_POST['company_id'];
@@ -89,7 +116,7 @@ if (user_ID != null) {
                 'product_name' => $product_name,
                 'oonline_date' => $oonline_date,
             );
-            $result = coolwp_update_valuation($id, $data);
+            $result = coolwp_update_valuation($id, $postdata1);
             if ($result) {
                 echo "<script language='javascript'>";
                 echo " location=http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
@@ -107,26 +134,13 @@ if (user_ID != null) {
             } else echo "删除失败！";
             exit();
         }
-        if (strcasecmp($_POST['posttype'], 'add') == 0) {
-            $company_id = $_POST['company_id'];
-            $valuation = $_POST['valuation'];
-            $valuation_date = $_POST['valuation_date'];
-            $totale_quity_funding = $_POST['totale_quity_funding'];
-            $rounds_offunding = $_POST['rounds_offunding'];
-            $product_name = $_POST['product_name'];
-            $oonline_date = $_POST['oonline_date'];
-            $data = array(
-                'company_id' => $company_id,
-                'valuation' => $valuation,
-                'valuation_date' => $valuation_date,
-                'totale_quity_funding' => $totale_quity_funding,
-                'rounds_offunding' => $rounds_offunding,
-                'product_name' => $product_name,
-                'oonline_date' => $oonline_date,
-            );
-            $result = coolwp_insert_valuation($data);
+        if ($_POST['add']) {
+			echo '$_POST[add]' . '<br/>';
+	$result=coolwp_insert_valuation($postdata1);
+			echo '$result' . $result . '<br/>';
             if ($result) {
-                echo "<script language='javascript'>";
+                echo "添加成功" . '<br/>';
+				                echo "<script language='javascript'>";
                 echo " location=http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                 echo "</script>";
             } else echo "添加失败！";
@@ -138,61 +152,26 @@ if (user_ID != null) {
 ?>
 		
 		<script type="text/javascript">
-			!(function(){  
-			!("#add").click(function() {
-				var input_data = !('#company_valuation_form').serialize();
-			!('#result').html('<img src="<?php
+		function addfun(){
+				alert("asdd");
+				var input_data = jQuery('#company_valuationthem').serialize();
+			jQuery('#result').html('<img src="<?php
         echo includes_url(); ?>/js/mediaelement/loading.gif" class="loader" />').fadeIn();
-			alert(input_data);
+			alert("input_data:"+input_data);
 			var url="<?php
         echo "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . "?posttype=add"; ?>";
 			jQuery.ajax({
 			type: "POST",
-			url:  url,
+			url:  'company_valuationthem',
 			data: input_data,
 			success: function(msg){
-				!('.loader').remove();
-				!('div#result').html(msg).hide().fadeIn('slow');
+				jQuery('.loader').remove();
+				jQuery('div#result').html(msg).hide().fadeIn('slow');
 			}
 			});
 			return false;
-			
-		});
-		!("#modify").click(function() {
-			!('#result').html('<img src="<?php
-        echo includes_url(); ?>/js/mediaelement/loading.gif" class="loader" />').fadeIn();
-			var input_data =!('#company_valuation_form').serialize();
-			jQuery.ajax({
-			type: "POST",
-			url:  "<?php
-        echo "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . "?posttype=modify"; ?>",
-			data: input_data,
-			success: function(msg){
-				!('.loader').remove();
-				!('div#result').html(msg).hide().fadeIn('slow');
-			}
-			});
-			return false;
-		});
-		!("#del").click(function() {
-			!('#result').html('<img src="<?php
-        echo includes_url(); ?>/js/mediaelement/loading.gif" class="loader" />').fadeIn();
-			var input_data = !('#company_valuation_form').serialize();
-			jQuery.ajax({
-			type: "POST",
-			url:  "<?php
-        echo "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . "?posttype=del"; ?>",
-			data: input_data,
-			success: function(msg){
-				!('.loader').remove();
-				!('div#result').html(msg).hide().fadeIn('slow');
-			}
-			});
-			return false;
-		});
-		});
-		
-        //全局变量   
+		};
+	//全局变量   
         var i=0;   
         //添加行   
         function addMyRow(){   
@@ -244,11 +223,12 @@ mytd_6.innerHTML="<input type='text' id='product_name' name='product_name"+i+"' 
  }else
 	 mytd_7.innerHTML="<input type='text' id='oonline_date' name='oonline_date"+i+"' value=''/>";
 
-mytd_8.innerHTML='<input name="add" type="submit" id="add" value="保存" />'; 
+mytd_8.innerHTML='<input name="add" type="submit" id="add" value="保存"/>'; 
             i++; 
   
         }   
-        </script>  
+</script>
+
 		<div id="main-content" class="main-content">
 		
 <div id="primary" class="content-area">
@@ -256,8 +236,8 @@ mytd_8.innerHTML='<input name="add" type="submit" id="add" value="保存" />';
 		<h1>公司估值历史数据</h1>
 		<div id="result"></div><!--  为ajax返回结果做准备 -->
 
-		<form id="company_valuation_form"  action="<?php
-        echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" method="post">
+		<form id="company_valuationthem" name="company_valuationthem" method="post" enctype="multipart/form-data">
+		<input type="hidden" name="action" value="company_valuationthem">
 <table>  
             <thead>  
                 <tr>
@@ -303,21 +283,21 @@ mytd_8.innerHTML='<input name="add" type="submit" id="add" value="保存" />';
 ?> 
 <tr>
 <td style="display:none"><input type="text" name="id" id="id" value="<?php
-            echo $v['id']; ?>"/></td>
+            echo $v->id; ?>"/></td>
 <td><input type="text" name="company_id" id="company_id" value="<?php
-            echo $v['company_id']; ?>"/></td>
+            echo $v->company_id; ?>"/></td>
 		<td><input type="text" name="valuation" id="valuation" value="<?php
-            echo $v['valuation']; ?>" /></td>
+            echo $v->valuation; ?>" /></td>
               <td><input type="text" name="valuation_date" id="valuation_date" value="<?php
-            echo $v['valuation_date']; ?>" /></td>
+            echo $v->valuation_date; ?>" /></td>
 			  <td><input type="text" name="totale_quity_funding" id="totale_quity_funding" value="<?php
-            echo $v['totale_quity_funding']; ?>" /></td>
+            echo $v->totale_quity_funding; ?>" /></td>
 			  <td><input type="text" name="rounds_offunding" id="rounds_offunding" value="<?php
-            echo $v['rounds_offunding']; ?>" /></td>
+            echo $v->rounds_offunding; ?>" /></td>
 			  <td><input type="text" name="product_name" id="product_name" value="<?php
-            echo $v['product_name']; ?>" /></td>
+            echo $v->product_name; ?>" /></td>
 			  <td><input type="text" name="oonline_date" id="oonline_date" value="<?php
-            echo $v['oonline_date']; ?>" /></td>
+            echo $v->oonline_date; ?>" /></td>
                 <td><input name="modify" type="button" id="modify" value="更新" />
 <input name="del" type="button" id="del" value="删除" />
  </td>
@@ -329,7 +309,48 @@ mytd_8.innerHTML='<input name="add" type="submit" id="add" value="保存" />';
 
         </table>  
 </form>
+		<script type="text/javascript">
+		jQuery(document).ready(function(){
+			
+		/*$("#modify").click(function() {
+			$('#result').html('<img src="<?php
+        echo includes_url(); ?>/js/mediaelement/loading.gif" class="loader" />').fadeIn();
+			var input_data =$('#company_valuation_form').serialize();
+			$.ajax({
+			type: "POST",
+			url:  "<?php
+        echo "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . "?posttype=modify"; ?>",
+			data: input_data,
+			success: function(msg){
+				$('.loader').remove();
+				$('div#result').html(msg).hide().fadeIn('slow');
+			}
+			});
+			return false;
+		});
+		$("#del").click(function() {
+			$('#result').html('<img src="<?php
+        echo includes_url(); ?>/js/mediaelement/loading.gif" class="loader" />').fadeIn();
+			var input_data = $('#company_valuation_form').serialize();
+			$.ajax({
+			type: "POST",
+			url:  "<?php
+        echo "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . "?posttype=del"; ?>",
+			data: input_data,
+			success: function(msg){
+				$('.loader').remove();
+				$('div#result').html(msg).hide().fadeIn('slow');
+			}
+			});
+			return false;
+		});
+		 });
+		})(jQuery);*/
 		
+		});
+		
+        
+        </script>  
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
