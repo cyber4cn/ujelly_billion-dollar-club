@@ -76,7 +76,8 @@ function coolwp_insert_valuation($data = array()) {
                  'date'=> current_time('timestamp'),   
     ));   */
     //Check date validity   日期验证
-    if (!is_float($data['date']) || $data['date'] <= 0) return 0;
+    $data['date']= current_time('timestamp');  
+	if (!is_float($data['date']) || $data['date'] <= 0) return 0;
     //Convert activity date from local timestamp to GMT mysql format   将本地时间戳转换为 mysql(GMT) 格式
     $data['valuation_date'] = date_i18n('Y-m-d', $data['date'], true);
     $data['oonline_date'] = date_i18n('Y-m-d', $data['date'], true);
@@ -90,6 +91,7 @@ function coolwp_insert_valuation($data = array()) {
     $data_keys = array_keys($data);
     $column_formats = array_merge(array_flip($data_keys) , $column_formats);
     $wpdb->insert($wpdb->company_valuation, $data, $column_formats);
+	echo '$wpdb->insert_id' . $wpdb->insert_id;
     return $wpdb->insert_id;
 }
 /**
@@ -106,6 +108,7 @@ function coolwp_insert_valuation($data = array()) {
  */
 function coolwp_update_valuation($id, $data = array()) {
     global $wpdb;
+	$data['date']= current_time('timestamp');  
     //valuation ID must be positive integer   记录ID必须是正的整型变量
     $id = absint($id);
     if (empty($id)) return false;
