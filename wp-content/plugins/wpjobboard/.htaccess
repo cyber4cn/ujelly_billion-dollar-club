@@ -1,0 +1,9 @@
+<Files ~ "\.(php|sql|key|ini|zip)$">
+  order allow,deny
+  deny from all
+</Files>
+
+<Files ~ "\.(js|css)$">
+  order allow,deny
+  allow from all
+</Files>

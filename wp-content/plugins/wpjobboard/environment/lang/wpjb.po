@@ -1,0 +1,4901 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-03 18:38+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:1
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:124
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:74
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:53
+msgid "Additional Fields"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:6
+msgid "Add New Additional Field"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:26
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:93
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:26
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:102
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:26
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:92
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:26
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:93
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:26
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:92
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:34
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:139
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:49
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:151
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:19
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:91
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:106
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:21
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:100
+msgid "Bulk Actions"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:27
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:64
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:94
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:27
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:65
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:103
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:27
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:62
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:93
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:27
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:64
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:94
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:27
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:62
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:93
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:50
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:106
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:152
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:67
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:107
+msgid "Delete"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:28
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:95
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:28
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:104
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:28
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:95
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:51
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:153
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:20
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:92
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:108
+msgid "Activate"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:29
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:96
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:29
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:105
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:29
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:96
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:52
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:154
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:21
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:93
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:109
+msgid "Deactivate"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:32
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:98
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:107
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:30
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:95
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:32
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:98
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:30
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:95
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:39
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:143
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:55
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:157
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:28
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:99
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:111
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:26
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:104
+msgid "Apply"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:43
+#: /home/greg/svn/tmp/wpjobboard/application/views/payment/index.php:22
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:43
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:41
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:43
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:41
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:39
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:37
+msgid "Id"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:44
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:189
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:72
+msgid "Label"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:45
+msgid "Type"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:46
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:193
+msgid "Hint"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:47
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:197
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:93
+msgid "Is Required"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:48
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:49
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Listing.php:85
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Company.php:122
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AddJob.php:46
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:119
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:101
+msgid "Is Active"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:63
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:15
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:22
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:62
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:64
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:59
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:61
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:61
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:63
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:59
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:61
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:88
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:101
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:104
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:58
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:60
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/index.php:34
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:63
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:66
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:56
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:58
+msgid "Edit"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:69
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:70
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:79
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:69
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:70
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:114
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:127
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:68
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:176
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:177
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Posting.php:28
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Posting.php:35
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Posting.php:42
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:54
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:61
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:68
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:75
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:82
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:117
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Listing.php:80
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Listing.php:88
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Application.php:51
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Company.php:124
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AddJob.php:49
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AddJob.php:57
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:122
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:126
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:96
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:104
+msgid "Yes"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:69
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:70
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:79
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:69
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:70
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:114
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:127
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:176
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:177
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Application.php:52
+msgid "No"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:82
+#: /home/greg/svn/tmp/wpjobboard/application/views/payment/index.php:70
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:91
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:81
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:82
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:81
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:128
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:140
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:80
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:95
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:89
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:140
+msgid "&laquo;"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/index.php:83
+#: /home/greg/svn/tmp/wpjobboard/application/views/payment/index.php:71
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:92
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:82
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:83
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:82
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:129
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:141
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:81
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:96
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:90
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:141
+msgid "&raquo;"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/edit.php:2
+msgid "Edit Additional Field | ID:{id}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/edit.php:5
+msgid "Add Additional Field"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/edit.php:11
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/edit.php:11
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/edit.php:11
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/edit.php:11
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:127
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:173
+msgid "Go Back"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/edit.php:27
+msgid "Option"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/edit.php:35
+msgid "Add"
+msgstr ""
+
+#. @var $group stdClass
+#. @var $field Daq_Form_Element
+#: /home/greg/svn/tmp/wpjobboard/application/views/addField/edit.php:43
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/edit.php:23
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/edit.php:23
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/edit.php:27
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/edit.php:23
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/edit.php:23
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:138
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:148
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/edit.php:62
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:57
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/edit.php:36
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/edit.php:73
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/my-resume.php:64
+msgid "Save Changes"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:1
+msgid "Configuration"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:9
+msgid "Main URLs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:12
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:45
+msgid "Job Board URL"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:19
+msgid "Resumes URL"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:26
+msgid "Config Categories"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:37
+msgid "Edit Payment Options"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:40
+msgid "PayPal configuration"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:46
+msgid "Edit Job Posting Options"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:49
+msgid "Jobs moderation and Twitter"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:55
+msgid "Edit Job Board Options"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:58
+msgid "Job Board options"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:64
+msgid "Edit External Integrations"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:67
+msgid "Career Builder API key, Twitter username and pasword"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:73
+msgid "Edit SEO &amp; Titles Options"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:76
+msgid "&lt;title&gt; tag values"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:82
+msgid "Edit 'Resumes' Options"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:85
+msgid "CV module options"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:93
+msgid "Edit All At Once"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/index.php:96
+msgid "All configurations on a single page"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/edit.php:1
+msgid "Edit Config"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/edit.php:6
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/edit.php:11
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:9
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:11
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:7
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/edit.php:11
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:147
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/edit.php:7
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-edit.php:3
+msgid "Go back"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/config/edit.php:25
+msgid "Save and send test tweet"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/feeds.php:3
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/job-board-menu.php:7
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/job-types.php:3
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/search.php:3
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/alerts.php:3
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/categories.php:3
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/featured-jobs.php:3
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/recently-viewed.php:3
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/recent-jobs.php:3
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/resumes-menu.php:7
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:44
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:42
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:44
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:42
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:39
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:42
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resumes.php:25
+msgid "Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/feeds.php:18
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/job-board-menu.php:22
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/job-types.php:18
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/search.php:18
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/alerts.php:18
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/categories.php:18
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/featured-jobs.php:33
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/recently-viewed.php:18
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/recent-jobs.php:33
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/resumes-menu.php:22
+msgid "Show on job board only"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/job-board-menu.php:2
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/resumes-menu.php:2
+msgid ""
+"Make sure to enable \"Anyone can register\" option in <a href=\"options-"
+"general.php\">WP settings</a> if you wish to allow employer/employee "
+"registration."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/job-types.php:33
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/categories.php:33
+msgid "Show jobs count"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/job-types.php:48
+msgid "Hide empty job types"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/categories.php:48
+msgid "Hide empty categories"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/featured-jobs.php:18
+#: /home/greg/svn/tmp/wpjobboard/application/views/widget/recent-jobs.php:18
+msgid "Number of jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/payment/index.php:1
+msgid "Payments"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/payment/index.php:8
+#: /home/greg/svn/tmp/wpjobboard/application/views/payment/index.php:10
+msgid "Find ID"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/payment/index.php:12
+msgid "Clear Search"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/payment/index.php:23
+msgid "Made At"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/payment/index.php:24
+msgid "User"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/payment/index.php:25
+msgid "Payment For"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/payment/index.php:26
+msgid "External Id"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/payment/index.php:27
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/payment.php:38
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/save.php:61
+msgid "To Pay"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/payment/index.php:28
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:67
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:55
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:85
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:85
+msgid "Paid"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/payment/index.php:43
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:52
+msgid "Anonymous"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/payment/index.php:52
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/job-board-menu.php:37
+msgid "Resumes Access"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:1
+msgid "Available Discounts"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:6
+msgid "Add New Discount"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:45
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:61
+msgid "Code"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:46
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:65
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:95
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:347
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Controller/Frontend.php:52
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/save.php:57
+msgid "Discount"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:47
+msgid "Expires At"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/index.php:48
+msgid "Usage"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/edit.php:2
+msgid "Edit Discount | ID: {id}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/discount/edit.php:5
+msgid "Add Discount"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/dashboard/stats.php:6
+msgid "orders count"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/dashboard/stats.php:9
+msgid "revenue"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/dashboard/stats.php:14
+msgid "last 7 days"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/dashboard/stats.php:15
+msgid "last 30 days"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/dashboard/stats.php:30
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Ajax/Dashboard.php:92
+msgid "Revenue"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/dashboard/stats.php:35
+msgid "Orders count"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/dashboard/stats.php:41
+msgid "Source"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/dashboard/stats.php:42
+msgid "jobs/resumes"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:1
+msgid "Category List"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:6
+msgid "Add New Category"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:16
+msgid "category"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:43
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:43
+msgid "Slug"
+msgstr ""
+
+#. @var $field Wpjb_Model_FieldValue
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:44
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:44
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Listing.php:93
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:79
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job.php:73
+msgid "Description"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:45
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:45
+msgid "Total Jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:46
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:46
+msgid "Active Jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/index.php:63
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:63
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:87
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:103
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:59
+msgid "View"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/edit.php:2
+msgid "Edit Job Category | ID: {id}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/category/edit.php:5
+msgid "Add Job Category"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:1
+msgid "Listing Types"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:6
+msgid "Add New Listing"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:16
+msgid "listing"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:45
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:66
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:96
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:84
+msgid "Price"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:46
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Listing.php:69
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AddJob.php:62
+msgid "Visible"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:47
+msgid "Featured"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:48
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:25
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:73
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/company.php:49
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:34
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:89
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:44
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/edit.php:49
+msgid "Active"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:68
+msgid "<i>always</i>"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/index.php:68
+msgid "days"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/edit.php:2
+msgid "Edit Listing | ID: {id}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/listing/edit.php:5
+msgid "Add Listing"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:1
+msgid "Job Types List"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:6
+msgid "Add New Job Type"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/index.php:16
+msgid "job type"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/edit.php:2
+msgid "Edit Job Type | ID: {id}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/edit.php:5
+msgid "Add Job Type"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/edit.php:33
+msgid "Click to select job type \\\"color\\\""
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/jobType/edit.php:35
+msgid "reset color"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:24
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:33
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:10
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:10
+msgid "All"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:26
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:54
+msgid "Expired"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:27
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:36
+msgid "Awaiting Approval"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:35
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:140
+msgid "Filled"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:36
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:141
+msgid "Not Filled"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:42
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:58
+msgid "Show all dates"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:43
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:59
+msgid "Last 30 days"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:44
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:60
+msgid "Last 7 days"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:45
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:61
+msgid "Last 3 days"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:46
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:62
+msgid "Since yesterday"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:47
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:63
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/ResumesSearch.php:58
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AdvancedSearch.php:54
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:179
+msgid "Today"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:65
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:81
+msgid "Position Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:68
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:86
+msgid "Created"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:69
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:39
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:87
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:69
+msgid "Expires"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:70
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:86
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:116
+msgid "Page Views"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:71
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:90
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:120
+msgid "Unique Views"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:72
+msgid "Resumes Sent"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:89
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:78
+msgid "Republish"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:93
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:112
+msgid "<i>free</i>"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:96
+msgid "free"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:96
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:115
+msgid "<i>n/a</i>"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:99
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:118
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-access.php:80
+msgid "ago"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/index.php:102
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:121
+msgid "<i>never</i>"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/company.php:1
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/company.php:54
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/edit.php:54
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:51
+msgid "Company Information"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/company.php:17
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/edit.php:17
+msgid "Company Data"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/company.php:20
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:71
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:101
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/edit.php:20
+msgid "Uploaded Image"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/company.php:24
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:74
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:104
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/edit.php:24
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/edit.php:35
+msgid "preview"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/company.php:25
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:75
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/edit.php:25
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/edit.php:36
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/edit.php:48
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:349
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Controller/Frontend.php:54
+msgid "remove"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/company.php:27
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:77
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:107
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/edit.php:27
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/edit.php:38
+msgid "no image uploaded"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/company.php:32
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/edit.php:32
+msgid "Company Profile Page"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/company.php:38
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/edit.php:38
+msgid "Company Profile Status"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/company.php:41
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:35
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/edit.php:41
+msgid "Inactive"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/company.php:43
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/edit.php:43
+msgid "Requested Full Actiavation"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/company.php:45
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/edit.php:45
+msgid "Access Declined"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/company.php:47
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/edit.php:47
+msgid "Full Access Granted"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:2
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:2
+msgid "Edit Job | ID: {id}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:32
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:40
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:52
+msgid "Job Information"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:35
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:65
+msgid "Created At"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:42
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:72
+msgid "Number of days visible"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:44
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:74
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/AjaxNopriv/Resumes.php:54
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:492
+msgid "never"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:49
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:79
+msgid "Payment Amount"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:51
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:81
+msgid "free listing"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:58
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:67
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:88
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:97
+msgid "not applicable"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:83
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:113
+msgid "Job Statistics"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:94
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:124
+msgid "Applications Sent"
+msgstr ""
+
+#.
+#. <tr valign="top">
+#. <th scope="row">Approved</th>
+#. <td class="wpjb-normal-td">
+#. <?php if($obj->is_approved): ?>
+#. Yes
+#. <?php else: ?>
+#. <?php echo $form->getRenderer()->renderBox($form->getElement("is_approved"), "checkbox"); ?>
+#. <?php endif; ?>
+#. </td>
+#. </tr>
+#.
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:112
+msgid "Company Details"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:117
+msgid "Job Details"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/edit.php:130
+msgid "Location Details"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/register.php:1
+msgid "Employer"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/register.php:11
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:494
+msgid "Request has been sent"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/register.php:16
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-access.php:13
+msgid "Once your employer account is approved you will be notified by email."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/register.php:23
+msgid "About Employer Accounts"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/register.php:30
+msgid "There are two ways to get an employer account"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/register.php:31
+msgid ""
+"You can have your employer account created automatically when posting your "
+"first job ad."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employer/register.php:32
+msgid "Request employer account using button below."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:1
+msgid "Edit Jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:6
+msgid "Add New Job"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:16
+msgid "job"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:25
+msgid "You are browsing jobs posted by company"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:27
+msgid "represented by"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:28
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:21
+msgid "Click here to"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:28
+msgid "browse all jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:70
+msgid "Filter"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:82
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:155
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/ResumesSearch.php:46
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job.php:49
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume.php:60
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume-min.php:49
+msgid "Category"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:83
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AdvancedSearch.php:32
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:95
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job.php:55
+msgid "Job Type"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:88
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:80
+msgid "Applicants"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:105
+msgid "Clone"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/index.php:155
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:23
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:95
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:22
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:101
+msgid "Approve"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:5
+msgid "Add Job"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:16
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:76
+msgid "View job"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:43
+msgid "Posted by"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/job/edit.php:59
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:42
+msgid "Representative"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/index.php:1
+msgid "Import source"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/index.php:38
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/index.php:57
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/index.php:74
+msgid "Import Jobs ..."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/index.php:43
+msgid ""
+"Import jobs from <a href=\"http://careerbuilder.com\">CareerBuilder.com</a> "
+"one of the biggest international job boards."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/index.php:44
+msgid ""
+"CareerBuilder is recommended source for jobs import since it allows to "
+"download jobs along with their full descriptions."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/index.php:45
+msgid "Before using CareerBuilder import please read"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/index.php:45
+msgid "Guide to CareerBulder import"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/index.php:61
+msgid ""
+"Import jobs from <a href=\"http://indeed.com\">Indeed</a> most popular job "
+"search and aggregation site."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/index.php:62
+msgid ""
+"Indeed is often selected as an import source because of wide selection of "
+"aggregated jobs and accurate job search. On the other hand Indeed API "
+"returns only 256 characters from the job description."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/index.php:78
+msgid "Import from your own XML file"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/index.php:79
+msgid ""
+"This is the best option for users who wish to Import jobs from their "
+"database. "
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:1
+msgid "CareerBuilder Import"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:11
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:23
+msgid "Import Information"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:14
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:26
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:134
+msgid "Job Country"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:17
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:29
+msgid "United States"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:18
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:80
+msgid "United Kingdom"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:19
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:48
+msgid "India"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:20
+msgid "Canada"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:21
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:44
+msgid "Germany"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:22
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:59
+msgid "Netherlands"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:23
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:75
+msgid "Sweden"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:24
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:74
+msgid "Spain"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:25
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:52
+msgid "Italy"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:26
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:43
+msgid "France"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:27
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:76
+msgid "Switzerland"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:28
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:45
+msgid "Greece"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:29
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:34
+msgid "Belgium"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:30
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:61
+msgid "Norway"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:31
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:38
+msgid "China"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:32
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:69
+msgid "Romania"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:33
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:50
+msgid "Ireland"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:34
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:41
+msgid "Denmark"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:35
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:66
+msgid "Poland"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:40
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:86
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AdvancedSearch.php:42
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:104
+msgid "Job Category"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:50
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:96
+msgid "Select category to which jobs will be imported"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:54
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:100
+msgid "Job Location"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:58
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:104
+msgid ""
+"Enter location: single city name, a single state name, a postal code (as in: "
+"30092), a comma-separated city/state pair (as in: Atlanta, GA), or a "
+"latitude and longitude in decimal degree (DD) format (as in "
+"36.7636::-119.7746)."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:62
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:108
+msgid "Posted Within"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:65
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:111
+msgid "1 Day"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:66
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:112
+msgid "3 Days"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:67
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:113
+msgid "7 Days"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:68
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:114
+msgid "30 Days"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:73
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:119
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/alerts.php:17
+msgid "Keyword"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:76
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:122
+msgid "Search for jobs matching this keyword"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:80
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:126
+msgid "Max. Jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:83
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:129
+msgid "10"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:84
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:130
+msgid "25"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:85
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:131
+msgid "50"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:87
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:133
+msgid "Maximum number of jobs to add"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:95
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:141
+msgid "Continue"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:105
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:151
+msgid "You are almost done!"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:110
+msgid ""
+"Job board will now search CareerBuilder for jobs that match your selection"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:112
+msgid ""
+"<strong>Important note:</strong> CareerBuilder sets limits on number of API "
+"calls per day, it is preferable that you do not import more then total of 50 "
+"jobs within 24 hours."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:113
+msgid ""
+"If you fail to do that CareerBuilder might freeze your API access for 24 "
+"hours."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:118
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:164
+msgid "Jobs Found"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:119
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:165
+msgid "Current Request"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:120
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:166
+msgid "Imported"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:128
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:174
+msgid "Start Import"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/careerbuilder.php:131
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:177
+msgid "Import started, you will be informed once it will be completed."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:1
+msgid "Indeed Import"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:8
+msgid "Before using Indeed import you need to "
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:9
+msgid "claim your Indeed Publisher Key"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:10
+msgid "and enter your API key in "
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:11
+msgid "External Integrations Configuration"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:30
+msgid "Argentina"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:31
+msgid "Australia"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:32
+msgid "Austria"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:33
+msgid "Bahrain"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:35
+msgid "Brazil"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:36
+msgid "Canda"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:37
+msgid "Chile"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:39
+msgid "Colombia"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:40
+msgid "Czech Republic"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:42
+msgid "Finland"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:46
+msgid "Hong Kong"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:47
+msgid "Hungary"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:49
+msgid "Indonesia"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:51
+msgid "Israel"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:53
+msgid "Japan"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:54
+msgid "Korea"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:55
+msgid "Kuwait"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:56
+msgid "Luxembourg"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:57
+msgid "Malaysia"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:58
+msgid "Mexico"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:60
+msgid "New Zeland"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:62
+msgid "Oman"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:63
+msgid "Pakistan"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:64
+msgid "Peru"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:65
+msgid "Philippines"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:67
+msgid "Portugal"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:68
+msgid "Qatar"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:70
+msgid "Russia"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:71
+msgid "Saudi Arabia"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:72
+msgid "Singapore"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:73
+msgid "South Africa"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:77
+msgid "Taiwan"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:78
+msgid "Turkey"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:79
+msgid "United Arab Emirates"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:81
+msgid "Venezuela"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:156
+msgid "Job board will now search Indeed for jobs that match your selection"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:158
+msgid ""
+"<strong>Important note:</strong> Indeed sets limits on number of API calls "
+"per day, it is preferable that you do not import more then total of 50 jobs "
+"within 24 hours."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/indeed.php:159
+msgid ""
+"If you fail to do that Indeed might freeze your API access for 24 hours."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/xml.php:1
+msgid "XML Import"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/xml.php:9
+msgid "Import file"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/xml.php:14
+msgid "Select a file that follows"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/xml.php:15
+msgid "WPJobBoard import scheme."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/import/xml.php:23
+msgid "Upload"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:1
+msgid "Employers List"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:11
+msgid "Requesting Approval"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:24
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:96
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:23
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:102
+msgid "Decline"
+msgstr ""
+
+#. *
+#. * Job details
+#. *
+#. * This template is responsible for displaying job details on job details page
+#. * (template single.php) and job preview page (template preview.php)
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage JobBoard
+#.
+#. @var $job Wpjb_Model_Job
+#. @var $company Wpjb_Model_Employer
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:40
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Company.php:40
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:59
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job.php:24
+msgid "Company Name"
+msgstr ""
+
+#. *
+#. * Company profile page
+#. *
+#. * This template displays company profile page
+#. *
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage JobBoard
+#.
+#. @var $jobList array List of active company job openings
+#. @var $company Wpjb_Model_Company Company information
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:41
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Company.php:96
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/Register.php:104
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company.php:29
+msgid "Company Location"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:43
+msgid "Jobs Posted"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:58
+msgid "not set"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:61
+msgid "View Profile"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:62
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/job-board-menu.php:14
+msgid "View Jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/index.php:68
+msgid "NO"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/employers/edit.php:1
+msgid "Edit Company (ID: {id})"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/index.php:1
+msgid "Email Templates"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/index.php:17
+msgid "Mail Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/index.php:18
+msgid "Sent When"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/index.php:19
+msgid "Mail From"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:1
+msgid "Edit Email Template | ID: {id}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:21
+msgid "General template variables"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:22
+msgid "Internal ID assigned to the job posting"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:22
+msgid "Date when job posting was created"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:23
+msgid "How long (in days) job posting will be visible"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:23
+msgid "Job posting price"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:24
+msgid "How much was already paid"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:24
+msgid "Used promo code"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:25
+msgid "Value (in USD) of the discount"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:25
+msgid "Name of the company that posted a job"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:26
+msgid "Company location"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:26
+msgid "Company contact eMail address"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:27
+msgid "Title of the job posting"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:27
+msgid "Selected type of listing"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:28
+msgid "Selected category"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:28
+msgid "Is listing active (Either: active or inactive)"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:29
+msgid "URL to the job posting"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:29
+msgid "Pay by PayPal URL. [For future use]"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:30
+msgid "Lisitng expiration date"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:34
+msgid "\"Apply\" form variables"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:35
+msgid "Applicant name the \"Apply\" form"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:35
+msgid "Applicant email address"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:36
+msgid "Applicant CV text"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:38
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:43
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:49
+msgid "Current template variables"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:39
+msgid "Title from the \"Apply\" form"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:39
+msgid "Alert unsubscribe URL"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:44
+msgid "Candidate ID"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:44
+msgid "Candidate email address"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:45
+msgid "Resume edition URL in wp-admin"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:45
+msgid "Professional headline"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:50
+msgid "Company ID"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:50
+msgid "Company website URL"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:51
+msgid "Company edition URL in wp-admin"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/email/edit.php:51
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/Register.php:47
+msgid "Company name"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:1
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:281
+msgid "Applications"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:19
+msgid "You are browsing applications for job"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:21
+msgid "browse all applications"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:46
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Application.php:32
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-application.php:43
+msgid "Applicant Name"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:47
+msgid "Applicant Email"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:48
+msgid "Job"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:49
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/edit.php:23
+msgid "Files"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:50
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-applications.php:34
+msgid "Freshness"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/index.php:65
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:444
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/add.php:57
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/my-resume.php:22
+msgid "Preview"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/edit.php:2
+msgid "Edit Application | ID: {id}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/application/edit.php:5
+msgid "Add New Application"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/index.php:1
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:1
+msgid "Visual Editor"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/index.php:8
+msgid "About Visual Editor"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/index.php:12
+msgid ""
+"Visual Editor is a tool that will help you reorganize some forms in admin "
+"and frontend using intuitive drag&amp;drop interface."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/index.php:16
+msgid "Edit \"Add Job\" Form"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/index.php:18
+msgid "Edit \"Apply for a job\" Form"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/index.php:20
+msgid "Edit \"My Resume\" Form"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/index.php:24
+msgid "What you can do with Visual Editor?"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/index.php:27
+msgid "Drag&amp;Drop single fields as well as whole fieldsets"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/index.php:28
+msgid "Rename fields labels and \"hints\""
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/index.php:29
+msgid "Hide fields you don't want to use"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/index.php:30
+msgid ""
+"If you won't like the changes you can click \"Reset form layout\" button"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:156
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:173
+msgid "configure"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:159
+msgid "Group name"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:162
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:208
+msgid "Ok"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:176
+msgid "Is required"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:177
+msgid "Is visible"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:202
+msgid "Is Visible"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:221
+msgid "Save form layout"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/visualEditor/edit.php:222
+msgid "Reset form layout"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:1
+msgid "User Resumes"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:11
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:68
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:200
+msgid "Pending Approval"
+msgstr ""
+
+#. *
+#. * Resumes list
+#. *
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage Resumes
+#.
+#. @var $resumeList array of Wpjb_Model_Resume objects
+#. @var $can_browse boolean True if user has access to resumes
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:38
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resumes.php:24
+msgid "Name"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:40
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Application.php:38
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Resumes/Register.php:37
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/Register.php:40
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/alerts.php:21
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-applications.php:33
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume.php:67
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume-min.php:56
+msgid "E-mail"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:41
+msgid "Phone"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:42
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resumes.php:26
+msgid "Last Update"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:43
+msgid "Status"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:70
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:201
+msgid "Declined"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:72
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:202
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:618
+msgid "Approved"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/index.php:74
+msgid "New"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/edit.php:1
+msgid "Edit Resume (ID: {id}"
+msgstr ""
+
+#. @var $resume Wpjb_Model_Resume
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/edit.php:28
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/my-resume.php:9
+msgid "Resume Information"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/edit.php:31
+msgid "Uploaded Photo"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/edit.php:43
+msgid "Uploaded File"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/edit.php:47
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume.php:99
+msgid "download"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/views/resumes/edit.php:50
+msgid "no file uploaded"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Payment/PayPal.php:205
+msgid "Job Board order #{num} at: "
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Payment/Cash.php:23
+msgid "Cash"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Validate/Coupon.php:30
+msgid "Coupon code does not exist."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Validate/Coupon.php:36
+msgid "Coupon code is not active."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Validate/Coupon.php:41
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Validate/Coupon.php:46
+msgid "Coupon code expired."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Validate/Coupon.php:51
+msgid "Currency does not match."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Posting.php:15
+msgid "Job Posting"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Posting.php:20
+msgid "Anyone"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Posting.php:21
+msgid "Registered Users"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Posting.php:22
+msgid "Admin"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Posting.php:23
+msgid "Who Can Post Jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Posting.php:29
+msgid "Moderate Jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Posting.php:30
+msgid "Held jobs for moderation until Admin will approve them."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Posting.php:36
+msgid "Encourage Registration"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Posting.php:37
+msgid "On job posting page displays a message encouraging registration."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Posting.php:43
+msgid "Tweet Jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Posting.php:44
+msgid ""
+"Post jobs to Twitter. (Requires that you configure Twitter username and "
+"password.)"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Posting.php:49
+msgid "Tweet Template"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Posting.php:50
+msgid "Allowed variables: {title}, {url}, {category}, {type}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:15
+msgid "Job Board Frontend Configuration"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:22
+msgid "Job offers per page"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:23
+msgid "Number of listings per page."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:30
+msgid "Days marked as new"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:31
+msgid "Number of days since posting job will be displayed as new."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:38
+msgid "Mark as old after"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:39
+msgid "Number of days after which job posting will be marked as old"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:46
+msgid ""
+"Do NOT modify this setting, unless you read intruction and you know what you "
+"are doing!"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:52
+msgid "Full URL Rewrite"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:53
+msgid "Checking this option will hide index.php in the URL"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:59
+msgid "Hide Filled Jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:60
+msgid "When job is marked as filled it will not be visible to job seekers"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:66
+msgid "Allow Job Edition"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:67
+msgid "If checked allows employers to edit their job listings."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:73
+msgid "Only members can apply"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:74
+msgid "Allow only registered members to apply for jobs."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:80
+msgid "Show Related Jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:81
+msgid "If checked related jobs will be listed in job details page."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:87
+msgid "Listing Template"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:88
+msgid "You can use variables: {price}, {title}, {visible}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:93
+msgid "Anti SPAM protection"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:94
+msgid "Simple Anti-SPAM protection"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:95
+msgid "reCAPTCHA"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:100
+msgid "Anti SPAM key"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:101
+msgid "Enter between 6 and 32 random alphanumeric characters here."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:106
+msgid "reCAPTCHA Public Key"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:111
+msgid "reCAPTCHA Private Key"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Frontend.php:116
+msgid "Show Google Maps"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Integration.php:15
+msgid "Integrations"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Integration.php:20
+msgid "Career Builder API Key"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Integration.php:21
+msgid ""
+"Claim your key at http://api.careerbuilder.com/RequestDevKey.aspx, It's "
+"required to use Import feature"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Integration.php:26
+msgid "Indeed Publisher API Key"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Integration.php:27
+msgid ""
+"Claim your key at https://ads.indeed.com/jobroll/, It's required to use "
+"Indeed Import"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Integration.php:32
+msgid "Twitter Consumer Key"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Integration.php:33
+msgid ""
+"You must configure both Twitter and Bit.ly in order to automatically post "
+"jobs to Twitter"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Integration.php:38
+msgid "Twitter Consumer Secret"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Integration.php:43
+msgid "Twitter OAuth Token"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Integration.php:48
+msgid "Twitter OAuth Secret"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Integration.php:53
+msgid "Bit.ly Login"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Integration.php:54
+msgid "Bit.ly is an URL shortening service"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Integration.php:59
+msgid "Bit.ly API Key"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Payment.php:18
+msgid "Payment Settings"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Payment.php:20
+msgid "Sandbox (For testing only)"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Payment.php:21
+msgid "Production (Real money)"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Payment.php:28
+msgid "PayPal eMail"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Payment.php:34
+msgid "PayPal Environment"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:15
+msgid "SEO &amp; Titles"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:20
+msgid "Job Board Name"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:21
+msgid "Job board name displayed on the job board front page."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:27
+msgid "Job Board Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:28
+msgid "Text displayed in the &lt;title&gt; tag on the job board front page."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:34
+msgid "Add Job: Step #1"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:35
+msgid "Name of the step #1. For example 'add job'"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:41
+msgid "Add Job: Step #2"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:42
+msgid "Name of the step #2. For example 'preview'"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:48
+msgid "Add Job: Step #3"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:49
+msgid "Name of the step #3. For example 'done!'"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:55
+msgid "Single Page Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:56
+msgid "Title on the page with job details. Allowed vars: {job_title}, {id}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:62
+msgid "Apply Page Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:63
+msgid "Title on the page with apply form. Allowed vars: {job_title}, {id}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:69
+msgid "Job Category Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:70
+msgid ""
+"Title on the page with listings from selected category. Allowed vars: "
+"{category}."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:76
+msgid "Search Results Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:77
+msgid "Title on the page with search results. Allowed vars: {keyword}."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:83
+msgid "Job Types Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:84
+msgid ""
+"Title on the page with listings with selected fob type. Allowed vars: {type}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:90
+msgid "Employer Page Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:91
+msgid "Title on the page with employer profile. Allowed vars: {company_name}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:97
+msgid "Resumes Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:98
+msgid "Title on the resumes front page"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:104
+msgid "Resumes Details Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:105
+msgid "Title on the single resume details page. Allowed vars: {full_name}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:111
+msgid "Resumes Advanced Search"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:112
+msgid "The title on the resumes advanced search form"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:118
+msgid "Resumes Search Results"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Seo.php:119
+msgid "The title on resumes search results page. Allowed vars: {keyword}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:29
+msgid "Resumes Settings"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:34
+msgid "Enable 'Resumes' Module"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:35
+msgid ""
+"If NOT checked, users won't be able to post resumes and employers won't be "
+"able to browse them"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:42
+msgid "Grant Resumes Access"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:43
+msgid ""
+"Note that automatically activating employer accounts might cause, potential "
+"security issue for employers since anyone will be able to browse their "
+"personal data"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:45
+msgid "To all"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:46
+msgid "To registered members"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:47
+msgid "To activated employers"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:48
+msgid "To premium employers"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:53
+msgid "Resumes Privacy"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:54
+msgid "Hide contact details only."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:55
+msgid "Hide resume list and details"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:60
+msgid "Resumes Approval"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:63
+msgid "Instant"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:64
+msgid "By Administrator"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:69
+msgid "Resumes Access Cost"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:70
+msgid "How much do you want to charge premium members."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:77
+msgid "Resumes Cost Currency"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:78
+msgid "Currency for 'Resumes Access Cost'"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:86
+msgid "Grant Access"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Config/Resume.php:87
+msgid ""
+"Number of days premium member will have access to resumes after purchase."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Listing.php:45
+msgid "Listing Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Listing.php:46
+msgid ""
+"Listing title should be a short name that explains listing details for "
+"example \"Featured listing\"."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Listing.php:53
+msgid "Listing Price"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Listing.php:54
+msgid "Listing price, examples of valid values are: \"50.00\", \"140.00\"."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Listing.php:61
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:87
+msgid "Currency"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Listing.php:70
+msgid "Number of days that listing will be visible. (0 = forever)"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Listing.php:77
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AddJob.php:55
+msgid "Is Featured"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Listing.php:78
+msgid ""
+"In short featured listings are listings that are displayed before normal "
+"listings (so they usually cost more)."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Listing.php:86
+msgid "Only active listings can be used by job posters."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Listing.php:94
+msgid ""
+"Briefly describe listing type. You can include cost and number of days "
+"listing will be visible."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Category.php:32
+msgid "Category Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Category.php:33
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/JobType.php:33
+msgid ""
+"The name is used to identify the category almost everywhere, for example "
+"under the post or in the category widget."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Category.php:39
+msgid "Category Slug"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Category.php:40
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AddJob.php:38
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/JobType.php:40
+msgid ""
+"The “slug” is the URL-friendly version of the name. It is usually all "
+"lowercase and contains only letters, numbers, and hyphens."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Category.php:47
+msgid "Category Description"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Category.php:48
+msgid "Briefly describe  category. (You can use HTML tags.)"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Application.php:43
+msgid "Resume/Message"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Application.php:48
+msgid "Reject application"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Company.php:36
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/Register.php:15
+msgid "Company"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Company.php:37
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:54
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/Register.php:16
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/featured-jobs.php:29
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/recently-viewed.php:29
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/recent-jobs.php:29
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/index.php:34
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job.php:30
+msgid "Location"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Company.php:46
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:78
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/Register.php:60
+msgid "Company Logo"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Company.php:47
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:79
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/Register.php:61
+msgid ""
+"Max. file size 30 kB. Image size 300x100 px. File formats *.jpg; *.gif; *."
+"png ."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Company.php:55
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:71
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company.php:44
+msgid "Company Website"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Company.php:62
+msgid "Company Info"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Company.php:66
+msgid ""
+"Use this field to describe your company profile (what you do, company size "
+"etc). Only {tags} HTML tags are allowed"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Company.php:75
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/Register.php:83
+msgid "Company Country"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Company.php:84
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/Register.php:92
+msgid "Company State"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Company.php:90
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/Register.php:98
+msgid "Company Zip-Code"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Company.php:102
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/Register.php:75
+msgid "Publish Profile"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Company.php:103
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/Register.php:76
+msgid "Allow job seekers to view company profile"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Company.php:123
+msgid "Activates company account"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AddJob.php:37
+msgid "Job Slug"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AddJob.php:64
+msgid "Number of days job will be visible (Overwrites listing type settings)"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AddJob.php:72
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AddJob.php:66
+msgid "Listing Type"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AddJob.php:86
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/EditJob.php:28
+msgid "Is Filled"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AddJob.php:88
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/EditJob.php:30
+msgid "Yes, this position is taken"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:38
+msgid "Percentage (%)"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:39
+msgid "Fixed amount of money"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:53
+msgid "Discount Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:54
+msgid "This is the official promotion name that identifies promotion."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:62
+msgid ""
+"The secret code that client has to know in order to use selected promo code."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:70
+msgid "Discount Value"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:71
+msgid "Examples of valid values. \"1234.00\", \"34.00\", \"45\""
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:78
+msgid "Discount Type"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:79
+msgid ""
+"Specyfing Discount Value is not enough, you have to also select type of "
+"discount you can choose either fixed amount of money or percentage of total "
+"price."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:96
+msgid "Expiration Date"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:97
+msgid "Discount expiration date in format \"yyyy-mm-dd\"."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:104
+msgid "Used"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:105
+msgid "Number of times coupon was already used."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:112
+msgid "Max uses"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:113
+msgid ""
+"Maximum number of times coupon can be used. (Zero equal to unlimited uses.)"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Discount.php:120
+msgid "Only active discounts can be used by job posters."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:40
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:26
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:612
+msgid "None"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:41
+msgid "Some High School Coursework"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:42
+msgid "High School or equivalent"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:43
+msgid "Certification"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:44
+msgid "Vocational"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:45
+msgid "Some College Coursework Completed"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:46
+msgid "Associate Degree"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:47
+msgid "Bachelors Degree"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:48
+msgid "Masters Degree"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:49
+msgid "Doctorate"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:50
+msgid "Professional"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:57
+msgid "No Work Experience"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:58
+msgid "Less than 1 Year"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:59
+msgid "1+ to 2 Years"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:60
+msgid "2+ to 3 Years"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:61
+msgid "3+ to 5 Years"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:62
+msgid "5+ to 7 Years"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:63
+msgid "7+ to 10 Years"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:64
+msgid "10+ to 15 Years"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:65
+msgid "More than 15 Years"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:72
+msgid "Personal Information"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:73
+msgid "Resume"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:77
+msgid "First Name"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:83
+msgid "Last Name"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:89
+msgid "Country"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:98
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume.php:39
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume-min.php:28
+msgid "Address"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:104
+msgid "Email Address"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:105
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:112
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:118
+msgid "This field will be shown only to registered employers."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:111
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume.php:74
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume-min.php:63
+msgid "Phone Number"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:117
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume.php:81
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume-min.php:70
+msgid "Website"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:124
+msgid "Is Resume Active"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:125
+msgid "If resume is inactive employers won't find you search results."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:132
+msgid "Your Photo"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:133
+msgid ""
+"Max. file size 30 kB. Image size 100x100 px. File formats *.jpg; *.gif; *."
+"png ."
+msgstr ""
+
+#. @var $field Wpjb_Model_FieldValue
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:141
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:293
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume.php:96
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/my-resume.php:29
+msgid "File"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:142
+msgid "Allowed Formats: pdf; doc; docx; rtf; txt."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:148
+msgid "Professional Headline"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:149
+msgid "Describe yourself in few words, for example: Experienced Web Developer"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:164
+msgid "Profile Summary"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:165
+msgid "Use this field to list your skills, specialities, experience or goals"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:170
+msgid "Experience Summary"
+msgstr ""
+
+#. @var $field Wpjb_Model_FieldValue
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:178
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume.php:53
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume.php:112
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume-min.php:42
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume-min.php:88
+msgid "Experience"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:179
+msgid ""
+"List companies you worked for (remember to include: company name, time "
+"period, your position and job description)"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:184
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/ResumesSearch.php:32
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume.php:46
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume-min.php:35
+msgid "Degree"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:192
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume.php:117
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume-min.php:93
+msgid "Education"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:193
+msgid ""
+"Your education, describe schools you attended, time period, degree and "
+"fields of study"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Resume.php:199
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/my-resume.php:11
+msgid "Resume Status"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Email.php:33
+msgid "Email From"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Email.php:34
+msgid ""
+"This is also email address where email is sent if email is sent to Admin."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Email.php:41
+msgid "Email Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Email.php:48
+msgid "Email Body"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/Email.php:49
+msgid "Do NOT use html tags in the email body."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/JobType.php:32
+msgid "Job Type Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/JobType.php:39
+msgid "Job Type Slug"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/JobType.php:47
+msgid "Job Type Description"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/JobType.php:48
+msgid "Briefly describe job type. (You can use HTML tags.)"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/JobType.php:54
+msgid "Text Color"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:16
+msgid "Short Text"
+msgstr ""
+
+#. array(2, 3, 'Checkbox'),
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:18
+msgid "Dropdown"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:19
+msgid "TextArea"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:27
+msgid "Text no longer then 80 characters"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:28
+msgid "Text no longer then 160 characters"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:29
+msgid "Integer"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:30
+msgid "Floating point number"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:43
+msgid "Field For"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:44
+msgid "Add job form"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:45
+msgid "Apply for job form"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:46
+msgid "Add resume form"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:51
+msgid "Field Type"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:59
+msgid "Validation"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:60
+msgid "Select how field should be validated"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:73
+msgid "Field Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:80
+msgid "Short field description (just like this text)."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:87
+msgid "Default Value"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:88
+msgid "Default value. Leave empty if there is none."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:94
+msgid "Required fields has to be filled by job poster"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:102
+msgid "Only active fields are visible on job posting form."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:128
+msgid "Field type of Dropdown has to have at least one option."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Admin/AdditionalField.php:133
+msgid "One of options is empty"
+msgstr ""
+
+#. @var $group stdClass
+#. @var $field Daq_Form_Element
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Resumes/Register.php:14
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:312
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-new.php:33
+msgid "Register"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Resumes/Register.php:17
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Resumes/Login.php:15
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Login.php:15
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/Register.php:19
+msgid "Username"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Resumes/Register.php:24
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Resumes/Login.php:20
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Login.php:20
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/Register.php:27
+msgid "Password"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Resumes/Register.php:32
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/Register.php:35
+msgid "Password (repeat)"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Resumes/Login.php:25
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Login.php:25
+msgid "Remember me"
+msgstr ""
+
+#. *
+#. * Advanced search form
+#. *
+#. * Displays advanced search form
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage JobBoard
+#.
+#. @var $form Wpjb_Form_Apply
+#. @var $shortcode bool If true then form is rendered in shortcode or using wpjb_search function
+#. @var $group stdClass
+#. @var $field Daq_Form_Element
+#. *
+#. * Job details
+#. *
+#. * This template is responsible for displaying job details on job details page
+#. * (template single.php) and job preview page (template preview.php)
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage Resumes
+#.
+#. @var $form Wpjb_Form_ResumesSearch
+#. @var $group stdClass
+#. @var $field Daq_Form_Element
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/ResumesSearch.php:26
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AdvancedSearch.php:26
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/search.php:31
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/search.php:47
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resumes-search.php:47
+msgid "Search"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/ResumesSearch.php:27
+msgid "title, experience, education ..."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/ResumesSearch.php:39
+msgid "Years of Experience"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/ResumesSearch.php:56
+msgid "Last updated"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/ResumesSearch.php:59
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AdvancedSearch.php:55
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:181
+msgid "Yesterday"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/ResumesSearch.php:60
+msgid "Less than 7 days ago"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/ResumesSearch.php:61
+msgid "Less than 30 days ago"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AdvancedSearch.php:27
+msgid "keyword, location, company ..."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AdvancedSearch.php:52
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/index.php:35
+msgid "Posted"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AdvancedSearch.php:56
+msgid "Less then 7 days ago"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AdvancedSearch.php:57
+msgid "Less then 30 days ago"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Apply.php:48
+msgid "Your name"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Apply.php:53
+msgid "Your e-mail address"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Apply.php:60
+msgid "Your CV file"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Apply.php:67
+msgid "Send my profile resume"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Apply.php:75
+msgid "Your resume/message"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Apply.php:90
+msgid "Captcha"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Apply.php:162
+msgid "You have to send CV file if you want to leave this field empty"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:55
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AddJob.php:35
+msgid "Coupon"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:65
+msgid "Company Email"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:114
+msgid "Job Title"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:121
+msgid "Job Description"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:125
+msgid "Only {tags} HTML tags are allowed"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:143
+msgid "Job State"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:149
+msgid "Job Zip-Code"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:157
+msgid "Job City/Location"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AbstractJob.php:158
+msgid "For example: \"Chicago\", \"London\", \"Anywhere\" or \"Telecommute\"."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AddJob.php:43
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/ResumesAccess.php:29
+msgid "Payment Method"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AddJob.php:68
+msgid "<b>{title}</b> {price} ~ days visible: {visible}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/AddJob.php:73
+msgid "<i>unlimited</i>"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/Register.php:14
+msgid "User Account"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/Register.php:53
+msgid "Company website"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Form/Frontend/Register.php:69
+msgid "Company info"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/List/Currency.php:14
+msgid "Australian Dollars"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/List/Currency.php:15
+msgid "Canadian Dollars"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/List/Currency.php:16
+msgid "Swiss Franc"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/List/Currency.php:17
+msgid "Czech Koruna"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/List/Currency.php:18
+msgid "Danish Krone"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/List/Currency.php:19
+msgid "Euros"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/List/Currency.php:20
+msgid "Pounds Sterling"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/List/Currency.php:21
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/List/Currency.php:22
+msgid "Hungarian Forint"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/List/Currency.php:23
+msgid "Israeli Shekel"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/List/Currency.php:24
+msgid "Japanese Yen"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/List/Currency.php:25
+msgid "Mexican Peso"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/List/Currency.php:26
+msgid "Norwegian Krone"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/List/Currency.php:27
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/List/Currency.php:28
+msgid "Polish Zloty"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/List/Currency.php:29
+msgid "Swedish Krona"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/List/Currency.php:30
+msgid "Singapore Dollar"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/List/Currency.php:31
+msgid "United States Dollars"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/FeaturedJobs.php:20
+msgid "Featured Jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/FeaturedJobs.php:21
+msgid "Displays list of recent featured jobs."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/Categories.php:19
+msgid "Job Categories"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/Categories.php:20
+msgid "Displays list of available job categories"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/RecentJobs.php:19
+msgid "Recent Jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/RecentJobs.php:20
+msgid "Displays list of recently posted jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/Alerts.php:19
+msgid "Job Alerts"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/Alerts.php:20
+msgid "Allows to create new job alert"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/JobTypes.php:19
+msgid "Job Types"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/JobTypes.php:20
+msgid "Displays list of available job types"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/JobBoardMenu.php:19
+msgid "Job Board Menu"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/JobBoardMenu.php:20
+msgid "Job board and employer menu."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/Search.php:19
+msgid "Search Jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/Search.php:20
+msgid "Search jobs widget."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/Feeds.php:20
+msgid "Job Feeds"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/Feeds.php:21
+msgid "Displays list of available WPJobBoard feeds"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/RecentlyViewed.php:19
+msgid "Recently Viewed"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/RecentlyViewed.php:20
+msgid "Recently viewed jobs list."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/ResumesMenu.php:19
+msgid "Resumes Menu"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Widget/ResumesMenu.php:20
+msgid "Resumes menu links"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:217
+msgid "jobs awaiting approval"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:227
+msgid "employers requesting approval"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:237
+msgid "resumes pending approval"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:285
+msgid "You cannot add empty option."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:286
+msgid "Option text length cannot be longer then 120 characters."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:287
+msgid "[remove]"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:288
+msgid "save"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:289
+msgid "cancel"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:290
+msgid "change"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:291
+msgid "Do you really want to delete"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:292
+msgid "Select action first"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:294
+msgid "Category still contains jobs. It cannot be deleted."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:295
+msgid "Job Type still contains jobs. It cannot be deleted."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:344
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Controller/Frontend.php:49
+msgid "check"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:345
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Controller/Frontend.php:50
+msgid "Select listing type"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:346
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Controller/Frontend.php:51
+msgid "Listing cost"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:348
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Controller/Frontend.php:53
+msgid "Total"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:350
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Controller/Frontend.php:55
+msgid ""
+"Cannot use selected coupon with this listing. Currencies does not match."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:351
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Controller/Frontend.php:56
+msgid "Reset all form fields?"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:367
+msgid "Job Board Stats"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:497
+msgid "Is Employer"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:501
+msgid "Check if user can access employer panels."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:536
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:381
+msgid "Edit Job"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Project.php:548
+msgid "Edit Resume"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Import.php:62
+msgid "Jobs imported: {x}."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Listing.php:16
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Job.php:16
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Category.php:16
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Application.php:16
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Employer.php:17
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Discount.php:16
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/JobType.php:16
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/AddField.php:88
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Employers.php:17
+msgid "Form saved."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Listing.php:17
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Job.php:17
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Category.php:17
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Category.php:22
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Application.php:17
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Application.php:22
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Employer.php:18
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Discount.php:17
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/JobType.php:17
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/JobType.php:22
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/AddField.php:102
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Employers.php:18
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:352
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:428
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:346
+msgid "There are errors in your form."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Listing.php:21
+msgid "Listing deleted."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Listing.php:22
+msgid "Listing could not be deleted."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Listing.php:26
+msgid "Number of deleted listings: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Listing.php:29
+msgid "Number of activated listings: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Listing.php:32
+msgid "Number of deactivated listings: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Job.php:21
+msgid "Job deleted."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Job.php:22
+msgid "Job could not be deleted."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Job.php:26
+msgid "Number of deleted jobs: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Job.php:29
+msgid "Number of activated jobs: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Job.php:32
+msgid "Number of deactivated jobs: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Job.php:35
+msgid "Number of approved jobs: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Category.php:21
+msgid "Category deleted."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Category.php:26
+msgid "Number of deleted categories: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Category.php:44
+msgid ""
+"Cannot delete category identified by ID #{id}. There are still jobs in this "
+"category."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Application.php:21
+msgid "Application deleted."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Application.php:26
+msgid "Number of deleted applications: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Config.php:51
+msgid "Configuration saved."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Config.php:53
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Email.php:60
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Resumes.php:18
+msgid "There are errors in the form."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Config.php:65
+msgid "Twitter: You need to have at least one posted job to send test tweet."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Config.php:70
+msgid "Tweet has been posted, please check your Twitter account."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Employer.php:22
+msgid "Number of jobs set to filled: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Employer.php:25
+msgid "Number of jobs set to NOT filled: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Employer.php:55
+msgid "You do not have access to this page."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Employer.php:61
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:384
+msgid "Administrator does not allow job postings edition."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Employer.php:82
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:203
+msgid "Image removed."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Employer.php:91
+msgid "Company profile saved."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Employer.php:94
+msgid "Cannot save profile information. There are errors in your form."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Employer.php:189
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:476
+msgid "You already requested employer account."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Employer.php:193
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:480
+msgid ""
+"Your employer account has been deactivated. Contact Administrator for more "
+"information."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Employer.php:200
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:487
+msgid ""
+"Your request has been declined, please update your profile and re-submit "
+"request"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Discount.php:21
+msgid "Discount deleted."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Discount.php:22
+msgid "Discount could not be deleted."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Discount.php:26
+msgid "Number of deleted discounts: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Discount.php:29
+msgid "Number of activated discounts: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Discount.php:32
+msgid "Number of deactivated discounts: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Email.php:41
+msgid ""
+"Emails sent to admin (emails are sent From and To email address specified in "
+"Mail From field)"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Email.php:42
+msgid ""
+"Emails sent to job poster (to email address specified in Company Email field)"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Email.php:43
+msgid "Other Emails"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Email.php:57
+msgid "Email Template saved."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/JobType.php:21
+msgid "Job Type deleted."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/JobType.php:26
+msgid "Number of deleted job types: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/JobType.php:29
+msgid "Number of activated job types: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/JobType.php:32
+msgid "Number of deactivated job types: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/JobType.php:47
+msgid ""
+"Cannot delete job type identified by ID #{id}. There are still jobs using "
+"this type."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/AddField.php:16
+msgid "Additional Field deleted."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/AddField.php:17
+msgid "Additional Field could not be deleted."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/AddField.php:21
+msgid "Number of deleted additional fields: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/AddField.php:24
+msgid "Number of activated additional fields: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/AddField.php:27
+msgid "Number of deactivated additional fields: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Resumes.php:17
+msgid "Resume has been saved."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Resumes.php:22
+msgid "Number of approved resumes: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Resumes.php:25
+msgid "Number of declined resumes: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/VisualEditor.php:66
+msgid "Form layout has been reseted."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/VisualEditor.php:72
+msgid "Form layout has been saved."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Employers.php:22
+msgid "Number of activated employer accounts: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Employers.php:25
+msgid "Number of deactivated employer accounts: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Employers.php:31
+msgid "Number of approved employer accounts: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Admin/Employers.php:32
+msgid "Number of declined employer accounts: {success}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Ajax/Dashboard.php:102
+msgid "Orders"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:37
+msgid "Resumes module is disabled"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:52
+msgid "Only verified employers can see employees contact details"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:57
+msgid "Only active premium employers can see employees contact details"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:62
+msgid "Only registered members can see employees contact details"
+msgstr ""
+
+#. *
+#. * Resumes menu
+#. *
+#. * Resumes menu widget template file
+#. *
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage Widget
+#. *
+#.
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:96
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/resumes-menu.php:23
+msgid "Browse Resumes"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:113
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:179
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/job-board-menu.php:19
+msgid "Advanced Search"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:125
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:140
+msgid "Search Results: {keyword}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:174
+msgid "{full_name}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:184
+msgid "My resume details"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:193
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:234
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:256
+msgid "You need to be logged in to access this page."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:198
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:73
+msgid ""
+"You need to be registered as Candidate in order to access this page. Your "
+"current account type is Employer."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:212
+msgid "Your resume has been saved."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:215
+msgid "Cannot save your resume. There are errors in your form."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:241
+msgid "Profile picture has been deleted"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:263
+msgid "File has been deleted"
+msgstr ""
+
+#. @var $group stdClass
+#. @var $field Daq_Form_Element
+#. *
+#. * Job seeker login page
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage Resumes
+#.
+#. @var $form Wpjb_Form_Resumes_Login
+#. @var $group stdClass
+#. @var $field Daq_Form_Element
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:276
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-login.php:35
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/login.php:45
+msgid "Login"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:287
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:157
+msgid "Incorrect username or password"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:289
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:159
+msgid "You have been logged in."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:303
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:59
+msgid "User registration is disabled."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Resumes/Index.php:339
+msgid "You have been registered."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:49
+msgid ""
+"You need 'Employer' account in order to access this page. Currently you are "
+"logged in as Candidate."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:50
+msgid "Incorrect account type"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:77
+msgid "Register Employer"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:123
+msgid "You have been registered successfully"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:145
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/job-board-menu.php:49
+msgid "Employer Login"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:214
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:291
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:325
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:356
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:388
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:416
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:443
+msgid "You are not allowed to access this page."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:223
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:231
+msgid "Job status has been changed"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:329
+msgid "Application for position: {job_title}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:364
+msgid "Application was moved to archive."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:366
+msgid "Application was accepted."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:396
+msgid "Job has been saved"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:399
+msgid "There are errors in your form"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:420
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/job-board-menu.php:31
+msgid "Company Profile"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:430
+msgid "Company information has been saved."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:451
+msgid "About Resumes Access"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:460
+msgid "Purchase Resumes Access"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Employer.php:565
+msgid "You have been logged out"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/AddJob.php:40
+msgid "Only Admin can post jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/AddJob.php:48
+msgid "Only registered members can post jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/AddJob.php:55
+msgid "You cannot post jobs. Your account is inactive."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/AddJob.php:76
+msgid ""
+"<b>Quick Tip</b>: If you login before posting a job, you will be able to "
+"manage all your jobs from <a href=\"{url}\">employer account</a>."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/AddJob.php:121
+msgid ""
+"<b>Note</b>: Data from your company profile is being used to fill 'Company "
+"Information' fields."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/AddJob.php:135
+msgid "There are errors in your form. Please correct them before proceeding"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/AddJob.php:226
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:211
+msgid "{job_title}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:53
+msgid "Job Board"
+msgstr ""
+
+#. @var $company Wpjb_Model_Employer
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:70
+msgid "{company_name}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:77
+msgid "Company profile is inactive."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:79
+msgid "Company profile is hidden."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:81
+msgid ""
+"Company profile will be visible once employer will post at least one job."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:94
+msgid "Category: {category}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:116
+msgid "Job Type: {type}"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:227
+msgid ""
+"This job posting was marked by employer as filled and is probably no longer "
+"available"
+msgstr ""
+
+#. job inactive or not exists
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:250
+msgid "Selected job is inactive or does not exist"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:259
+msgid "Apply for position: {job_title} (ID: {id})"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:271
+msgid "Only registered members can apply for jobs."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:330
+msgid "[Application] "
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:343
+msgid "Your application has been sent."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:378
+msgid "Alert deleted. You will no longer receive email alerts."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:380
+msgid "Alert could not be found."
+msgstr ""
+
+#. *
+#. * Save job
+#. *
+#. * Template displayed when job is being saved
+#. *
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage JobBoard
+#. *
+#.
+#. @var $button Wpjb_Payment_PayPal
+#. @var $payment Wpjb_Model_Payment Payment object
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:392
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/payment.php:27
+msgid "Payment"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/application/libraries/Module/Frontend/Index.php:395
+msgid "This payment was already processed correctly."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:275
+msgid "view profile"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:443
+msgid "Create ad"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:445
+msgid "Done!"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:539
+msgid "<small><i>register to see</i></small>"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:573
+msgid "All Categories"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:586
+msgid "All Jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:614
+msgid "Pending approval"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:616
+msgid "Declined (update your resume and submit it again)"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:629
+msgid "{ago} ago"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:631
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:52
+msgid "Never"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/functions.php:747
+msgid "reCAPTCHA public API key is missing."
+msgstr ""
+
+#. *
+#. * Feeds
+#. *
+#. * Feeds widget template
+#. *
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage Widget
+#. *
+#.
+#. @var $categories array List of Wpjb_Model_Category objects
+#. @var $param stdClass Widget configurations options
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/feeds.php:25
+msgid "All Feeds"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/feeds.php:33
+msgid "No feeds found."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/job-board-menu.php:8
+msgid "Post a Job"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/job-board-menu.php:26
+msgid "Company Jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/job-board-menu.php:43
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/resumes-menu.php:39
+msgid "Logout"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/job-board-menu.php:54
+msgid "Employer Registration"
+msgstr ""
+
+#. *
+#. * Job types
+#. *
+#. * Job types widget template
+#. *
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage Widget
+#. *
+#.
+#. @var $job_types array List of Wpjb_Model_JobType objects
+#. @var $param stdClass Widget configurations options
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/job-types.php:35
+msgid "No job types found."
+msgstr ""
+
+#. *
+#. * Search jobs
+#. *
+#. * Search jobs widget template file
+#. *
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage Widget
+#. *
+#.
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/search.php:23
+msgid "Search Keyword"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/alerts.php:10
+msgid "Alert was added to the database."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/alerts.php:12
+msgid "Alert could not be added. There was an error in the form."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/alerts.php:25
+msgid "Add Alert"
+msgstr ""
+
+#. *
+#. * Categories
+#. *
+#. * Categories widget template
+#. *
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage Widget
+#. *
+#.
+#. @var $categories array List of Wpjb_Model_Category objects
+#. @var $param stdClass Widget configurations options
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/categories.php:35
+msgid "No categories found."
+msgstr ""
+
+#. *
+#. * Featured Jobs
+#. *
+#. * Featured jobs widget template file
+#. *
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage Widget
+#. *
+#.
+#. @var $jobList array List of Wpjb_Model_Job objects
+#. *
+#. * Recently viewed jobs
+#. *
+#. * Recently viewed jobs widget template file
+#. *
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage Widget
+#. *
+#.
+#. @var $jobList array List of Wpjb_Model_Job objects
+#. *
+#. * Recently posted jobs
+#. *
+#. * Recent jobs widget template file
+#. *
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage Widget
+#. *
+#.
+#. @var $jobList array List of Wpjb_Model_Job objects
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/featured-jobs.php:26
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/recently-viewed.php:26
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/recent-jobs.php:26
+msgid "at"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/featured-jobs.php:34
+msgid "No featured jobs found."
+msgstr ""
+
+#. @var $job Wpjb_Model_Job
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/recently-viewed.php:34
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/recent-jobs.php:41
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/index.php:60
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:94
+msgid "No job listings found."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/recent-jobs.php:36
+msgid "view all &raquo;"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/resumes-menu.php:28
+msgid "Search Resumes"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/resumes-menu.php:34
+msgid "My Resume"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/resumes-menu.php:45
+msgid "Candidate Login"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/widget/resumes-menu.php:50
+msgid "Candidate Registration"
+msgstr ""
+
+#. *
+#. * Jobs list
+#. *
+#. * This template file is responsible for displaying list of jobs on job board
+#. * home page, category page, job types page and search results page.
+#. *
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage JobBoard
+#. *
+#. * @var $jobList array List of jobs to display
+#. * @var $current_category Wpjb_Model_Category Available if browsing jobs by category
+#. * @var $current_type Wpjb_ModelJobType Available if browsing jobs by type
+#.
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/index.php:33
+msgid "Job title"
+msgstr ""
+
+#. *
+#. * Job application details
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage JobBoard
+#. *
+#. /* @var $job Wpjb_Model_Job
+#. @var $application Wpjb_Model_Application
+#. *
+#. * Company job applications
+#. *
+#. * Template displays job applications
+#. *
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage JobBoard
+#. *
+#.
+#. @var $applicantList array List of applications to display
+#. @var $job string Wpjb_Model_Job
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-application.php:20
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-applications.php:25
+msgid "Company jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-application.php:31
+msgid "Application Status"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-application.php:34
+msgid "Rejected"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-application.php:35
+msgid "Accept"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-application.php:37
+msgid "Accepted"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-application.php:38
+msgid "Reject"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-application.php:47
+msgid "Applicant E-mail"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-application.php:51
+msgid "Date Sent"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-application.php:63
+msgid "Attached Files"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-application.php:77
+msgid "Message"
+msgstr ""
+
+#. *
+#. * Company job stats
+#. *
+#. * Template displays company jobs stats
+#. *
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage JobBoard
+#. *
+#.
+#. @var $jobList array List of jobs to display
+#. @var $browse string One of: active; expired
+#. @var $routerIndex string
+#. @var $expiredCount int Total number of company expired jobs
+#. @var $activeCount int Total number of company active jobs
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:29
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:32
+msgid "Active listings"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:30
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:33
+msgid "Expired listings"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:41
+msgid "Expires in"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:43
+msgid "Statistics"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:64
+msgid "views"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:66
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:68
+msgid "applications"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:77
+msgid "Edit job"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:83
+msgid "Mark as not filled"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-panel.php:85
+msgid "Mark as filled"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job.php:44
+msgid "Date Posted"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/preview.php:12
+msgid "Edit Listing"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/preview.php:13
+msgid "Publish Listing"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company.php:45
+msgid "Unknown"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company.php:63
+msgid "Current job openings at"
+msgstr ""
+
+#. @var $job Wpjb_Model_Job
+#. @var $relatedJob Wpjb_Model_Job
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company.php:71
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/single.php:35
+msgid "posted {time_ago} ago."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company.php:75
+msgid "Currently this employer doesn't have any openings."
+msgstr ""
+
+#. *
+#. * Job details container
+#. *
+#. * Inside this template job details page is generated (using function
+#. * wpjb_job_template)
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage JobBoard
+#. *
+#. * @var $job Wpjb_Model_Job
+#. * @var $related array List of related jobs
+#. * @var $show_related boolean
+#.
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/single.php:27
+msgid "Related Jobs"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/single.php:43
+msgid "Apply online"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/single.php:44
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/apply.php:59
+msgid "or"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/single.php:45
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/apply.php:60
+msgid "cancel and go back"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-login.php:36
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/login.php:46
+msgid "Not a member? Register"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-applications.php:32
+msgid "Applicant name"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-applications.php:45
+msgid "ID"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-applications.php:59
+msgid "No applicants found."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/payment.php:30
+msgid "Payment for job posting."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/payment.php:33
+msgid "Payment for resumes access."
+msgstr ""
+
+#. *
+#. * Apply for a job form
+#. *
+#. * Displays form that allows to apply for a selected job
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage JobBoard
+#.
+#. @var $members_only bool True if only registered members can apply for jobs
+#. @var $application_sent bool True if form was just submitted
+#. @var $job Wpjb_Model_Job
+#. @var $form Wpjb_Form_Apply
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/apply.php:26
+msgid "Go back to job details."
+msgstr ""
+
+#. @var $group stdClass
+#. @var $field Daq_Form_Element
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/apply.php:58
+msgid "Send Application"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/apply.php:65
+msgid "&larr; Go back to job details."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-access.php:20
+msgid "You have already been granted full access to employee resumes."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-access.php:24
+msgid ""
+"For security reasons, employers have to manually request resumes access."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-access.php:28
+msgid "Before requesting access to user resumes please fill your"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-access.php:29
+msgid "company profile"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-access.php:35
+msgid "Request resumes access now!"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-access.php:50
+msgid "Total Cost"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-access.php:51
+msgid "Extends Account Until"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-access.php:70
+msgid "Your access expires on"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-access.php:73
+msgid "in"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-access.php:77
+msgid "Your access expired on"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-access.php:111
+msgid "Purchase resumes access now!"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-access.php:123
+msgid "You already have full resumes access."
+msgstr ""
+
+#. *
+#. * Add job form
+#. *
+#. * Template displays add job form
+#. *
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage JobBoard
+#. *
+#.
+#. @var $form Wpjb_Form_AddJob
+#. @var $can_post boolean User has job posting priviledges
+#. @var $group stdClass
+#. @var $field Daq_Form_Element
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/add.php:56
+msgid "Reset"
+msgstr ""
+
+#. @var $group stdClass
+#. @var $field Daq_Form_Element
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/job-edit.php:35
+msgid "Update"
+msgstr ""
+
+#. *
+#. * Save job
+#. *
+#. * Template displayed when job is being saved
+#. *
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage JobBoard
+#. *
+#.
+#. @var $job Wpjb_Model_Job
+#. @var $action string
+#. @var $online boolean True if job was automatically published
+#. @var $payment string Payment form
+#. @var $can_post boolean User has job posting priviledges
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/save.php:32
+msgid "Thank you for using our service and submitting your job listing."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/save.php:35
+msgid "Your job listing is now live."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/save.php:36
+msgid "Click here to view your listing"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/save.php:39
+msgid ""
+"Once it has been moderated and approved your job posting will become active."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/save.php:44
+msgid "Thank you for the payment, your order will be processed shortly."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/save.php:46
+msgid "We already recived payment for this listing. Thank you."
+msgstr ""
+
+#. show payment form
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/save.php:48
+msgid "Please use form below to make payment for job listing. Thank you!"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/save.php:53
+msgid "Listing Cost"
+msgstr ""
+
+#. *
+#. * Edit company profile
+#. *
+#. * Displays company profile form. Employer can edit his company page here.
+#. *
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage JobBoard
+#. *
+#.
+#. @var $form Wpjb_Form_Frontend_Company Company edit form
+#. @var $company Wpjb_Model_Employer Currently logged in employer object
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-edit.php:25
+msgid "View company profile"
+msgstr ""
+
+#. @var $group stdClass
+#. @var $field Daq_Form_Element
+#: /home/greg/svn/tmp/wpjobboard/templates/job-board/company-edit.php:56
+msgid "Update profile"
+msgstr ""
+
+#. *
+#. * Job details
+#. *
+#. * This template is responsible for displaying job details on job details page
+#. * (template single.php) and job preview page (template preview.php)
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage Resumes
+#.
+#. @var $resume Wpjb_Model_Resume
+#. @var $can_browse boolean True if user has access to resumes
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume.php:33
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resume-min.php:22
+msgid "Last Resume Update"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/my-resume.php:15
+msgid "Last Updated"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/my-resume.php:20
+msgid "Profile Image"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/my-resume.php:23
+msgid "Delete photo"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/my-resume.php:31
+msgid "Download"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/my-resume.php:32
+msgid "Delete file"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/my-resume.php:71
+msgid ""
+"Wait! Your resume next status will be 'pending approval' and it won't be "
+"visible until Administrator manually approve it. Do you want to continue?"
+msgstr ""
+
+#. *
+#. * Job seeker registration page
+#. *
+#. * @author Greg Winiarski
+#. * @package Templates
+#. * @subpackage Resumes
+#.
+#. @var $form Wpjb_Form_Resumes_Register
+#. @var $group stdClass
+#. @var $field Daq_Form_Element
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/register.php:45
+msgid "Register account"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/templates/resumes/resumes.php:45
+msgid "No resumes found."
+msgstr ""
