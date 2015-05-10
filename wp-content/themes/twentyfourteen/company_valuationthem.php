@@ -51,8 +51,12 @@ if (user_ID != null) {
 			if ($position === 0)
 				$postdata1['company_id'] = $value;
 			$position = strpos($key,'valuation');
+			$position1 = strcmp($key,'valuations');
+			$position2 = strpos($key,'valuation_date');
 			echo $position . '<br/>';
-			if ($position === 0)
+			echo 'position1:' .$position1 . '<br/>';
+			echo 'position2:' .$position2 . '<br/>';
+			if ($position === 0 && $position1===-1 && $position2===false)
 				$postdata1['valuation'] = $value;
 			$position = strpos($key,'valuation_date');
 			echo $position . '<br/>';
@@ -135,15 +139,17 @@ if (user_ID != null) {
             exit();
         }
         if ($_POST['add']) {
-			echo '$_POST[add]' . '<br/>';
+			echo '$_POST[add]' . $_POST[add] . '<br/>';
 	$result=coolwp_insert_valuation($postdata1);
 			echo '$result' . $result . '<br/>';
             if ($result) {
-                echo "添加成功" . '<br/>';
-				                echo "<script language='javascript'>";
-                echo " location=http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-                echo "</script>";
-            } else echo "添加失败！";
+                echo "<script type='text/javascript'>alert('添加成功！');history.back();</script>";
+				             /*   echo "<script type='text/javascript'>";
+               echo "alert('添加成功');";
+			   echo "location.href=http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+                echo "</script>";*/
+            } else 
+				echo "<script type='text/javascript'>alert('添加失败！');history.back();</script>";
             exit();
         }
         exit();
@@ -188,40 +194,40 @@ if (user_ID != null) {
    var mytd_8=mytr.insertCell(7);
    if(document.getElementById("company_id")!=null)
    {var company_id= document.getElementById("company_id").innerHTML; 
-mytd_1.innerHTML="<input type='text' id='company_id' name='company_id"+i+"' value='"+company_id+"'/>";   
+mytd_1.innerHTML="<input type='text' id='company_id"+i+"' name='company_id"+i+"' value='"+company_id+"'/>";   
 		}else
-			mytd_1.innerHTML="<input type='text' id='company_id' name='company_id"+i+"' value=''/>";   
+			mytd_1.innerHTML="<input type='text' id='company_id"+i+"' name='company_id"+i+"' value=''/>";   
  if(document.getElementById("valuation")!=null)
  {var valuation= document.getElementById("valuation").innerHTML;   
-mytd_2.innerHTML="<input type='text' id='valuation' name='valuation"+i+"' value='"+valuation+"'/>";   
+mytd_2.innerHTML="<input type='text' id='valuation"+i+"' name='valuation"+i+"' value='"+valuation+"'/>";   
  }else
-	 mytd_2.innerHTML="<input type='text' id='valuation' name='valuation"+i+"' value=''/>";   
+	 mytd_2.innerHTML="<input type='text' id='valuation"+i+"' name='valuation"+i+"' value=''/>";   
  if(document.getElementById("valuation_date")!=null)
  {var valuation_date= document.getElementById("valuation_date").innerHTML;   
- mytd_3.innerHTML="<input type='text' id='valuation_date' name='valuation_date"+i+"' value='"+valuation_date+"'/>";
+ mytd_3.innerHTML="<input type='text' id='valuation_date"+i+"' name='valuation_date"+i+"' value='"+valuation_date+"'/>";
  }else
-	  mytd_3.innerHTML="<input type='text' id='valuation_date' name='valuation_date"+i+"' value=''/>";
+	  mytd_3.innerHTML="<input type='text' id='valuation_date"+i+"' name='valuation_date"+i+"' value=''/>";
   if(document.getElementById("totale_quity_funding")!=null)
  {
    var totale_quity_funding= document.getElementById("totale_quity_funding").innerHTML;   
-   mytd_4.innerHTML="<input type='text' id='totale_quity_funding' name='totale_quity_funding"+i+"' value='"+totale_quity_funding+"'/>";
+   mytd_4.innerHTML="<input type='text' id='totale_quity_funding"+i+"' name='totale_quity_funding"+i+"' value='"+totale_quity_funding+"'/>";
  }else
-	 mytd_4.innerHTML="<input type='text' id='totale_quity_funding' name='totale_quity_funding"+i+"' value=''/>";
+	 mytd_4.innerHTML="<input type='text' id='totale_quity_funding"+i+"' name='totale_quity_funding"+i+"' value=''/>";
      if(document.getElementById("rounds_offunding")!=null)
  {var rounds_offunding= document.getElementById("rounds_offunding").innerHTML;   
-mytd_5.innerHTML="<input type='text' id='rounds_offunding' name='rounds_offunding"+i+"' value='"+rounds_offunding+"'/>";
+mytd_5.innerHTML="<input type='text' id='rounds_offunding"+i+"' name='rounds_offunding"+i+"' value='"+rounds_offunding+"'/>";
  }else
-	 mytd_5.innerHTML="<input type='text' id='rounds_offunding' name='rounds_offunding"+i+"' value=''/>";
+	 mytd_5.innerHTML="<input type='text' id='rounds_offunding"+i+"' name='rounds_offunding"+i+"' value=''/>";
      if(document.getElementById("valuation_date")!=null)
  {var product_name= document.getElementById("valuation_date").innerHTML;   
-mytd_6.innerHTML="<input type='text' id='product_name' name='product_name"+i+"' value='"+product_name+"'/>";
+mytd_6.innerHTML="<input type='text' id='product_name"+i+"' name='product_name"+i+"' value='"+product_name+"'/>";
  }else
-	 mytd_6.innerHTML="<input type='text' id='product_name' name='product_name"+i+"' value=''/>";
+	 mytd_6.innerHTML="<input type='text' id='product_name"+i+"' name='product_name"+i+"' value=''/>";
      if(document.getElementById("oonline_date")!=null)
  {var oonline_date= document.getElementById("oonline_date").innerHTML;   
- mytd_7.innerHTML="<input type='text' id='oonline_date' name='oonline_date"+i+"' value='"+oonline_date+"'/>";
+ mytd_7.innerHTML="<input type='text' id='oonline_date"+i+"' name='oonline_date"+i+"' value='"+oonline_date+"'/>";
  }else
-	 mytd_7.innerHTML="<input type='text' id='oonline_date' name='oonline_date"+i+"' value=''/>";
+	 mytd_7.innerHTML="<input type='text' id='oonline_date"+i+"' name='oonline_date"+i+"' value=''/>";
 
 mytd_8.innerHTML='<input name="add" type="submit" id="add" value="保存"/>'; 
             i++; 
@@ -284,19 +290,19 @@ mytd_8.innerHTML='<input name="add" type="submit" id="add" value="保存"/>';
 <tr>
 <td style="display:none"><input type="text" name="id" id="id" value="<?php
             echo $v->id; ?>"/></td>
-<td><input type="text" name="company_id" id="company_id" value="<?php
+<td><input type="text" name="companys_ids" id="companys_ids" value="<?php
             echo $v->company_id; ?>"/></td>
-		<td><input type="text" name="valuation" id="valuation" value="<?php
+		<td><input type="text" name="valuations" id="valuations" value="<?php
             echo $v->valuation; ?>" /></td>
-              <td><input type="text" name="valuation_date" id="valuation_date" value="<?php
+              <td><input type="text" name="valuations_dates" id="valuations_dates" value="<?php
             echo $v->valuation_date; ?>" /></td>
-			  <td><input type="text" name="totale_quity_funding" id="totale_quity_funding" value="<?php
+			  <td><input type="text" name="totales_quitys_fundings" id="totales_quitys_fundings" value="<?php
             echo $v->totale_quity_funding; ?>" /></td>
-			  <td><input type="text" name="rounds_offunding" id="rounds_offunding" value="<?php
+			  <td><input type="text" name="roundss_offunding" id="roundss_offundings" value="<?php
             echo $v->rounds_offunding; ?>" /></td>
-			  <td><input type="text" name="product_name" id="product_name" value="<?php
+			  <td><input type="text" name="products_names" id="products_names" value="<?php
             echo $v->product_name; ?>" /></td>
-			  <td><input type="text" name="oonline_date" id="oonline_date" value="<?php
+			  <td><input type="text" name="oonlines_dates" id="oonlines_dates" value="<?php
             echo $v->oonline_date; ?>" /></td>
                 <td><input name="modify" type="button" id="modify" value="更新" />
 <input name="del" type="button" id="del" value="删除" />
