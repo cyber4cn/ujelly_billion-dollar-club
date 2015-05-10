@@ -87,9 +87,11 @@ function coolwp_insert_valuation($data = array())
       )); */
     //Check date validity   日期验证
         
+        
     //Convert activity date from local timestamp to GMT mysql format   将本地时间戳转换为 mysql(GMT) 格式
     $data['valuation_date'] = date_i18n('Y-m-d', strtotime($data['valuation_date']), true);
     $data['oonline_date'] = date_i18n('Y-m-d', strtotime($data['oonline_date']), true);
+ 
     //Initialise column format array   初始化列(字段，下同)格式数组
     $column_formats = coolwp_get_valuation_table_columns();
     //Force fields to lower case   强制小写

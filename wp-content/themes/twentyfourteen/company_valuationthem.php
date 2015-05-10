@@ -81,7 +81,7 @@ if ($user_ID != null)
     {
         get_header();
         ?>
-
+ 
         <script type="text/javascript">
             var tdmap = {
                 0: "company_id",
@@ -130,6 +130,7 @@ if ($user_ID != null)
                     });
                     return false;
                 });
+ 
             }
         </script>
 
@@ -140,6 +141,7 @@ if ($user_ID != null)
                     <h1>公司估值历史数据</h1>
                     <div id="result"></div><!--  为ajax返回结果做准备 -->
 
+ 
                     <input type="hidden" name="action" value="company_valuationthem">
                     <table style="width:100%; overflow: scroll;">  
                         <thead>  
@@ -183,7 +185,7 @@ if ($user_ID != null)
                             //这里是PHP代码
                             foreach ($result as $k => $v) //循环开始
                             {
-                                ?> 
+                                ?>  
 
                                 <tr>
                                     <td style="display:none">
@@ -207,6 +209,7 @@ if ($user_ID != null)
 
                     </table>  
 
+ 
                     <script type="text/javascript">
                         jQuery(document).ready(function () {
 
@@ -243,8 +246,7 @@ if ($user_ID != null)
                                 });
                                 return false;
                             });
-                        });
-
+                        }); 
 
                     </script>  
 
