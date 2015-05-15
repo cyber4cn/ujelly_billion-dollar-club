@@ -1,0 +1,231 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-03 18:38+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Helper.php:56
+#: /home/greg/svn/tmp/wpjobboard/framework/Helper.php:78
+msgid "less than a minute"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Helper.php:56
+#: /home/greg/svn/tmp/wpjobboard/framework/Helper.php:82
+msgid "1 minute"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Helper.php:62
+msgid "less than 5 seconds"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Helper.php:66
+msgid "less than 10 seconds"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Helper.php:70
+msgid "less than 20 seconds"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Helper.php:74
+msgid "half a minute"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Helper.php:88
+msgid "%minutes% minutes"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Helper.php:93
+msgid "about 1 hour"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Helper.php:97
+msgid "about %hours% hours"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Helper.php:102
+msgid "1 day"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Helper.php:106
+#, php-format
+msgid "%days% days"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Helper.php:111
+msgid "about 1 month"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Helper.php:115
+msgid "%months% months"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Helper.php:120
+msgid "about 1 year"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Helper.php:124
+msgid "over %years% years"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/InArray.php:22
+msgid "Unrecognized value"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/Required.php:15
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/Required.php:18
+msgid "Field cannot be empty"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/Date.php:23
+msgid "Invalid date format"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/Float.php:37
+msgid "Value is not a Float."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/Float.php:42
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/Int.php:42
+msgid "Value is to small."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/Float.php:47
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/Int.php:47
+msgid "Value is to big."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/Int.php:37
+msgid "Value is not an Integer."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/Db/RecordExists.php:15
+msgid "Record does not exist in the database."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/Db/NoRecordExists.php:15
+msgid "Record already exists in the database."
+msgstr ""
+
+#. [ADMIN]
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/Slug.php:16
+msgid "Slug cannot be empty"
+msgstr ""
+
+#. [ADMIN]
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/Slug.php:23
+msgid "Slug can contain only letters, numbers, and hyphens and underscores"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/Url.php:14
+msgid "Invalid URL. Provide valid URL"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/Email.php:16
+msgid "Email address is invalid"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/WP/Email.php:19
+msgid "Please type your e-mail address."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/WP/Email.php:22
+msgid "The email address isn&#8217;t correct."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/WP/Email.php:26
+msgid "This email is already registered, please choose another one."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/WP/Username.php:17
+msgid "Please enter a username."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/WP/Username.php:20
+msgid ""
+"This username is invalid because it uses illegal characters. Please enter a "
+"valid username."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/WP/Username.php:24
+msgid "This username is already registered, please choose another one."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/File/ImageSize.php:29
+msgid "Unknown image file."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/File/ImageSize.php:36
+msgid "Image width is to big."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/File/ImageSize.php:41
+msgid "Image height is to big."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/File/Default.php:24
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/File/Default.php:27
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/File/Default.php:30
+msgid "The uploaded file was only partially uploaded"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/File/Default.php:33
+msgid "No file was uploaded"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/File/Default.php:36
+msgid "Missing a temporary folder"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/File/Default.php:39
+msgid "Failed to write file to disk"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/File/Default.php:42
+msgid "File upload stopped by extension"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/File/Default.php:45
+msgid "Unknown upload error"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/File/Ext.php:31
+msgid "Unrecognized file extension."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/File/Size.php:22
+msgid "File is to big."
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/PasswordEqual.php:22
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/PasswordEqual.php:27
+msgid "Passwords do not match"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/StringLength.php:26
+msgid "String is to short"
+msgstr ""
+
+#: /home/greg/svn/tmp/wpjobboard/framework/Validate/StringLength.php:31
+msgid "String is to long"
+msgstr ""
