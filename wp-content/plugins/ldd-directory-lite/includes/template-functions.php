@@ -337,6 +337,64 @@ function ldl_get_social($post_id) {
     return implode(' ', $output);
 }
 
+
+/**
+ * Get an array of valuation for the designated post, and return it as a string to be used
+ * in various templates.
+	*
+ * @param int $post_id The post ID
+	*
+ * @return string
+ */
+function ldl_get_valuation($post_id) {
+	
+    if (!is_int($post_id))
+	return false;
+	
+    // Get the links for this listing
+    $valuation = array(
+	'valuation' => ldl_force_scheme(get_post_meta($post_id, ldl_pfx('valuation'), 1)),
+	'product_name' => ldl_force_scheme(get_post_meta($post_id, ldl_pfx('product_name'), 1)),
+	'the_amount_of_financing'  => ldl_force_scheme(get_post_meta($post_id, ldl_pfx('the_amount_of_financing'), 1)),
+	'the_date_of_financing'  => ldl_force_scheme(get_post_meta($post_id, ldl_pfx('the_date_of_financing'), 1)),
+	'the_times_of_financing'  => ldl_force_scheme(get_post_meta($post_id, ldl_pfx('the_times_of_financing'), 1)),
+    );
+	
+    $titles = array(
+	'valuation' => '%1$s',
+	'product_name' => '%1$s',
+	'the_amount_of_financing'  => '%1$s',
+	'the_date_of_financing'  => '%1$s',
+	'the_times_of_financing'  => '%1$s',
+    );
+	
+    $name = get_the_title($post_id);
+	
+	
+    // Start building an array of links
+    $output = array();
+	
+    foreach ($valuation as $key => $url) {
+        if (!empty($url)) {
+            $title_key = array_key_exists($key, $titles) ? $titles[ $key ] : $titles['default'];
+            $title = sprintf($title_key, $name, $key);
+			
+            //$output[] = '<a href="' . $url . '" title="' . $title . '"><i class="fa fa-' . $key . '-square"></i></a>';
+			$output[] = '<ul><li>' . $title . '：' . $key . '</li></ul>';
+        }
+    }
+	
+    /**
+     * Allow developers to filter these links before returning them to the template
+		*
+     * @param array $output  An array of social links
+     * @param int   $post_id The post ID
+     */
+    $output = apply_filters('lddlite_filter_presentation_valuation', $output, $post_id);
+	
+    return implode(' ', $output);
+}
+
 /**
  * Get Featured Posts
  */

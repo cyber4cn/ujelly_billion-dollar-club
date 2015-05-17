@@ -138,6 +138,48 @@ function ldl_metaboxes_setup_cmb(array $meta_boxes) {
         ),
     );
 
+	// Set up a custom meta box to encapsulate all URLs related to this listing
+    $meta_boxes['listings_valuation'] = array(
+		'id'         => 'listings_valuation',
+		'title'      => __('company valuation', 'ldd-directory-lite'),
+		'pages'      => array(LDDLITE_POST_TYPE),
+		'context'    => 'normal',
+		'priority'   => 'core',
+		'show_names' => true,
+		'fields'     => array(
+			array(
+				'name' => __('Valuation', 'ldd-directory-lite'),
+				'desc' => __('Please provide the lastest valuation of your company.', 'ldd-directory-lite'),
+				'id'   => ldl_pfx('valuation'),
+				'type' => 'text',
+			),
+			array(
+				'name' => __('Product_name', 'ldd-directory-lite'),
+				'desc' => __('Please provide product name of your company.', 'ldd-directory-lite'),
+				'id'   => ldl_pfx('product_name'),
+				'type' => 'text',
+			),
+			array(
+				'name' => __('The_amount_of_financing', 'ldd-directory-lite'),
+				'desc' => __('Please provide the_amount_of_financing of your company.', 'ldd-directory-lite'),
+				'id'   => ldl_pfx('the_amount_of_financing'),
+				'type' => 'text',
+			),
+			array(
+				'name' => __('The_date_of_financing', 'ldd-directory-lite'),
+				'desc' => __('Please provide The_date_of_financing of your company.', 'ldd-directory-lite'),
+				'id'   => ldl_pfx('the_date_of_financing'),
+				'type' => 'text',
+			),
+			array(
+				'name' => __('The_times_of_financing', 'ldd-directory-lite'),
+				'desc' => __('Please provide The_times_of_financing of your company.', 'ldd-directory-lite'),
+				'id'   => ldl_pfx('the_times_of_financing'),
+				'type' => 'text',
+			),						
+		),
+    );
+
     // Groups together all contact information for a listing
     $meta_boxes['listings_contact'] = array(
         'id'         => 'listings_contact',

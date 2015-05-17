@@ -37,36 +37,40 @@
      <div class="row">
 		<div class="col-md-12">
 			<div class="form-group">
-				<label class="control-label" for="f_Productname"><?php _e('Product name', 'ldd-directory-lite'); ?></label>
-				<input type="text" id="f_Productname" class="form-control" name="n_Productname" value="<?php echo ldl_get_value('Productname'); ?>" required>
-				<?php echo ldl_get_error('Productname'); ?>
+				<label class="control-label" for="f_Productname"><?php _e('Product_name', 'ldd-directory-lite'); ?></label>
+				<input type="text" id="f_product_name" class="form-control" name="n_product_name" value="<?php echo ldl_get_value('product_name'); ?>" required>
+				<?php echo ldl_get_error('product_name'); ?>
 				<p class="help-block"><?php _e('Please provide product name of your company.', 'ldd-directory-lite'); ?></p>
 			</div>
 		</div>
 	</div>
     <div class="row">
-		<div class="col-md-6">
+		<div class="col-md-12">
 			<div class="form-group">
-				<label class="control-label" for=""><?php _e('The amount of financing', 'ldd-directory-lite'); ?></label>
-				<input type="text" id="f_contact_financing" class="form-control" name="n_contact_financing" value="<?php echo ldl_get_value('contact_financing'); ?>">
-                <?php echo ldl_get_error('contact_financing'); ?>
-			</div>
-		</div>
-		<div class="col-md-6">
-			<div class="form-group">
-				<label class="control-label" for=""><?php _e('The date of financing', 'ldd-directory-lite'); ?></label>
-				<input type="text" id="f_contact_financingdate" class="form-control" name="n_contact_financingdate" value="<?php echo ldl_get_value('contact_financingdate'); ?>">
-                <?php echo ldl_get_error('contact_financingdate'); ?>
+				<label class="control-label" for=""><?php _e('The_amount_of_financing', 'ldd-directory-lite'); ?></label>
+				<input type="text" id="f_the_amount_of_financing" class="form-control" name="n_the_amount_of_financing" value="<?php echo ldl_get_value('the_amount_of_financing'); ?>">
+                <?php echo ldl_get_error('the_amount_of_financing'); ?>
+				<p class="help-block"><?php _e('Please provide the_amount_of_financing of your company.', 'ldd-directory-lite'); ?></p>
 			</div>
 		</div>
 	</div>
-    
-    <div class="row">
-		<div class="col-md-6">
+	<div class="row">
+		<div class="col-md-12">
 			<div class="form-group">
-				<label class="control-label" for=""><?php _e('The times of financing', 'ldd-directory-lite'); ?></label>
-				<input type="text" id="f_contact_financingtimes" class="form-control" name="n_contact_financingtimes" value="<?php echo ldl_get_value('contact_financingtimes'); ?>">
-                <?php echo ldl_get_error('contact_financingtimes'); ?>
+				<label class="control-label" for=""><?php _e('The_date_of_financing', 'ldd-directory-lite'); ?></label>
+				<input type="text" id="f_the_date_of_financing" class="form-control" name="n_the_date_of_financing" value="<?php echo ldl_get_value('the_date_of_financing'); ?>">
+                <?php echo ldl_get_error('the_date_of_financing'); ?>
+				<p class="help-block"><?php _e('Please provide the_date_of_financing of your company.', 'ldd-directory-lite'); ?></p>
+			</div>
+		</div>
+	</div>
+    <div class="row">
+		<div class="col-md-12">
+			<div class="form-group">
+				<label class="control-label" for=""><?php _e('The_times_of_financing', 'ldd-directory-lite'); ?></label>
+				<input type="text" id="f_the_times_of_financing" class="form-control" name="n_the_times_of_financing" value="<?php echo ldl_get_value('the_times_of_financing'); ?>">
+                <?php echo ldl_get_error('the_times_of_financing'); ?>
+				<p class="help-block"><?php _e('Please provide the_times_of_financing of your company.', 'ldd-directory-lite'); ?></p>
 			</div>
 		</div>
 		

@@ -76,16 +76,21 @@ function ldl_get_listing_meta($id) {
         return false;
 
     $defaults = array(
-        'address_one' => '',
-        'address_two' => '',
-        'city'        => '',
-        'subdivision' => '',
-        'post_code'   => '',
-        'address'     => '',
-        'geocode'     => '',
-        'website'     => '',
-        'email'       => '',
-        'phone'       => '',
+        'address_one'                  => '',
+        'address_two'                  => '',
+        'city'                         => '',
+        'subdivision'                  => '',
+        'post_code'                    => '',
+        'address'                      => '',
+        'geocode'                      => '',
+        'website'                      => '',
+        'email'                        => '',
+        'phone'                        => '',
+		'valuation'                    => '',
+		'product_name'                 => '',
+		'the_amount_of_financing'      => '',
+		'the_date_of_financing'        => '',
+		'the_times_of_financing'       => '',
     );
 
     $meta['address_one'] = get_post_meta($id, ldl_pfx('address_one'), 1);
@@ -94,6 +99,12 @@ function ldl_get_listing_meta($id) {
     $meta['subdivision'] = get_post_meta($id, ldl_pfx('subdivision'), 1);
     $meta['post_code'] = get_post_meta($id, ldl_pfx('post_code'), 1);
 
+	$meta['valuation'] = get_post_meta($id, ldl_pfx('valuation'), 1);
+	$meta['product_name'] = get_post_meta($id, ldl_pfx('product_name'), 1);
+	$meta['the_amount_of_financing'] = get_post_meta($id, ldl_pfx('the_amount_of_financing'), 1);
+	$meta['the_date_of_financing'] = get_post_meta($id, ldl_pfx('the_date_of_financing'), 1);
+	$meta['the_times_of_financing'] = get_post_meta($id, ldl_pfx('the_times_of_financing'), 1);
+	
     $address = '';
     $geocode = '';
 
