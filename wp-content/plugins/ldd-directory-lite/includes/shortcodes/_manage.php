@@ -157,6 +157,18 @@ function ldl_shortcode_directory_manage() {
                     $lddlite_submit_processor->push_data($data);
                     break;
 
+				case 'valuation':
+					$data = array(
+						'title'        => get_the_title($listing->ID),
+						'valuation'  => get_metadata('post', $listing->ID, ldl_pfx('valuation'), true),
+						'product_name' => get_metadata('post', $listing->ID, ldl_pfx('Product_name'), true),
+						'the_amount_of_financing'  => get_metadata('post', $listing->ID, ldl_pfx('the_amount_of_financing'), true),
+						'the_date_of_financing' => get_metadata('post', $listing->ID, ldl_pfx('the_date_of_financing'), true),
+						'the_times_of_financing' => get_metadata('post', $listing->ID, ldl_pfx('the_times_of_financing'), true),
+					);
+					$lddlite_submit_processor->push_data($data);
+					break;
+				
                 case 'logo':
                     $data = array(
                         'title' => get_the_title($listing->ID),

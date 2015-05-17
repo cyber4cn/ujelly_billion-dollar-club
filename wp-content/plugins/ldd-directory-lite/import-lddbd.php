@@ -143,8 +143,8 @@ class ldd_directory_lite_import_from_plugin {
 
         $query = sprintf("
                 SELECT createDate, name, description, categories, address_street, address_city, address_state, address_zip,
-                       address_country, phone, fax, email, contact, url, facebook, twitter, linkedin, promoDescription,
-                       logo, login, password, approved, other_info
+		address_country, phone, fax, email, contact, url, facebook, twitter, valuation, product_name, the_amount_of_financing, 
+		the_date_of_financing, the_times_of_financing, linkedin, promoDescription, logo, login, password, approved, other_info
                 FROM `%s`
             ", UPFROM_MAIN_TABLE);
         $results = $wpdb->get_results($query);
@@ -373,7 +373,19 @@ class ldd_directory_lite_import_from_plugin {
                 $post_meta['url_linkedin'] = ldl_force_scheme($post->linkedin);
             if (!empty($post->twitter))
                 $post_meta['url_twitter'] = ldl_sanitize_twitter($post->twitter);
-
+			
+			
+			if (!empty($post->valuation))
+			$post_meta['valuation'] = ldl_force_scheme($post->valuation);
+            if (!empty($post->product_name))
+			$post_meta['product_name'] = ldl_force_scheme($post->product_name);
+            if (!empty($post->the_amount_of_financing))
+			$post_meta['the_amount_of_financing'] = ldl_force_scheme($post->the_amount_of_financing);
+			if (!empty($post->the_date_of_financing))
+			$post_meta['the_date_of_financing'] = ldl_force_scheme($post->the_date_of_financing);
+			if (!empty($post->the_times_of_financing))
+			$post_meta['the_times_of_financing'] = ldl_force_scheme($post->the_times_of_financing);
+		
             foreach ($post_meta as $key => $value) {
                 add_post_meta($post_id, ldl_pfx($key), $value);
             }
