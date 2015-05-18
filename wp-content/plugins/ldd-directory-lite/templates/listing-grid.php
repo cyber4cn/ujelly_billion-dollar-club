@@ -6,6 +6,7 @@
             <div class="listing-meta">
                 {if="!empty($meta.phone)"}<p class="phone"><i class="fa fa-phone"></i> {$meta.phone}</p>{/if}
                 {if="!empty($address)"}<p class="address"><i class="fa fa-globe"></i> {$address}</p>{/if}
+				<p>123</p>
             </div>
         </div>
     </div>

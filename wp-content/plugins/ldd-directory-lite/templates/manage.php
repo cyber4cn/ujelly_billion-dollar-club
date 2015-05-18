@@ -31,7 +31,8 @@
                         <a href="<?php ldl_edit_link(get_the_ID(), 'contact'); ?>">Edit Contact</a> |
                         <a href="<?php ldl_edit_link(get_the_ID(), 'social'); ?>">Edit Social</a> |
                         <a href="<?php ldl_edit_link(get_the_ID(), 'logo'); ?>">Update Logo</a> |
-                        <a href="<?php ldl_edit_link(get_the_ID(), 'location'); ?>">Change Location</a>
+                        <a href="<?php ldl_edit_link(get_the_ID(), 'location'); ?>">Change Location</a> |
+                        <a href="<?php ldl_edit_link(get_the_ID(), 'valuation'); ?>">Change Valuation</a>
                     </td>
                 </tr>
             <?php endwhile; ?>
