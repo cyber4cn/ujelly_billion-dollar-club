@@ -36,6 +36,13 @@ get_header(); ?>
                                 <?php if (ldl_has_meta('url_twitter')): ?><li><i class="fa fa-twitter fa-lg fa-li"></i> <a href="<?php echo ldl_get_meta( 'url_twitter' ); ?>"><?php echo ldl_get_meta( 'url_twitter' ); ?></a></li><?php endif; ?>
                                 <?php if (ldl_has_meta('url_linkedin')): ?><li><i class="fa fa-linkedin fa-lg fa-li"></i> <a href="<?php echo ldl_get_meta( 'url_linkedin' ); ?>"><?php echo ldl_get_meta( 'url_linkedin' ); ?></a></li><?php endif; ?>
                             </ul>
+							<ul class="fa-ul">
+                               <?php if ( ldl_get_meta( 'valuation' )): ?><li>valuation：<?php echo  ldl_get_meta( 'valuation' ); ?></li><?php endif; ?>
+							   <?php if ( ldl_get_meta( 'product_name' )): ?><li>product_name：<?php echo  ldl_get_meta( 'product_name' ); ?></li><?php endif; ?>
+							   <?php if ( ldl_get_meta( 'the_amount_of_financing' )): ?><li>the_amount_of_financing：<?php echo  ldl_get_meta( 'the_amount_of_financing' ); ?></li><?php endif; ?>
+							   <?php if ( ldl_get_meta( 'the_date_of_financing' )): ?><li>the_date_of_financing：<?php echo  ldl_get_meta( 'the_date_of_financing' ); ?></li><?php endif; ?>
+							   <?php if ( ldl_get_meta( 'the_times_of_financing' )): ?><li>the_times_of_financing：<?php echo  ldl_get_meta( 'the_times_of_financing' ); ?></li><?php endif; ?>
+                            </ul>
                         </div>
 
                         <?php if ( ldl_use_google_maps() ): ?>

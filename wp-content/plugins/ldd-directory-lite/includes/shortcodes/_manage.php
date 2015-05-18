@@ -88,6 +88,7 @@ function ldl_process_edit_form() {
             case 'contact':
             case 'social':
             case 'location':
+			case 'valuation':
                 foreach ($data as $key => $value) {
                     update_post_meta($post_id, ldl_pfx($key), $value);
                 }
