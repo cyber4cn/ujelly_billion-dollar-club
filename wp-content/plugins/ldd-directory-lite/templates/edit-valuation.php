@@ -24,7 +24,7 @@
                     <div class="form-group">
                         <label class="control-label" for="f_product_name"><?php _e('Product_name', 'ldd-directory-lite'); ?></label>
                         <input type="text" id="f_product_name" class="form-control" name="n_product_name" value="<?php echo ldl_get_value('product_name'); ?>">
-                        <?php echo ldl_get_error('product_name'); ?>
+                        <?php echo ldl_get_error('product_name');?>
                     </div>
                 </div>
             </div>

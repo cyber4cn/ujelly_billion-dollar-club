@@ -55,14 +55,7 @@
                 <?php echo ldl_get_error('url_twitter'); ?>
 			</div>
 		</div>
-		<div class="col-md-6">
-			<div class="form-group">
-				<label class="control-label" for=""><?php _e('Linkedin', 'ldd-directory-lite'); ?></label>
-				<input type="text" id="f_url_linkedin" class="form-control" name="n_url_linkedin" value="<?php echo ldl_get_value( 'url_linkedin' ); ?>">
-				<p class="help-block"><?php _e('Help locating and customizing your <a href="http://help.linkedin.com/app/answers/detail/a_id/85/~/promoting-your-public-profile" title="Promoting Your Public Profile | LinkedIn Help Center">LinkedIn profile URL</a>', 'ldd-directory-lite'); ?></p>
-                <?php echo ldl_get_error('url_linkedin'); ?>
-			</div>
-		</div>
+		 
 	</div>
 </div>
 
