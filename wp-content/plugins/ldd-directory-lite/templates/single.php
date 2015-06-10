@@ -37,11 +37,11 @@ get_header(); ?>
                                 <?php if (ldl_has_meta('url_linkedin')): ?><li><i class="fa fa-linkedin fa-lg fa-li"></i> <a href="<?php echo ldl_get_meta( 'url_linkedin' ); ?>"><?php echo ldl_get_meta( 'url_linkedin' ); ?></a></li><?php endif; ?>
                             </ul>
 							<ul class="fa-ul">
-                               <?php if ( ldl_get_meta( 'valuation' )): ?><li>valuation：<?php echo  ldl_get_meta( 'valuation' ); ?></li><?php endif; ?>
-							   <?php if ( ldl_get_meta( 'product_name' )): ?><li>product_name：<?php echo  ldl_get_meta( 'product_name' ); ?></li><?php endif; ?>
-							   <?php if ( ldl_get_meta( 'the_amount_of_financing' )): ?><li>the_amount_of_financing：<?php echo  ldl_get_meta( 'the_amount_of_financing' ); ?></li><?php endif; ?>
-							   <?php if ( ldl_get_meta( 'the_date_of_financing' )): ?><li>the_date_of_financing：<?php echo  ldl_get_meta( 'the_date_of_financing' ); ?></li><?php endif; ?>
-							   <?php if ( ldl_get_meta( 'the_times_of_financing' )): ?><li>the_times_of_financing：<?php echo  ldl_get_meta( 'the_times_of_financing' ); ?></li><?php endif; ?>
+                               <?php if ( ldl_get_meta( 'valuation' )): ?><li><?php _e('Valuation', 'ldd-directory-lite'); ?>：<?php echo  ldl_get_meta( 'valuation' ); ?></li><?php endif; ?>
+							   <?php if ( ldl_get_meta( 'product_name' )): ?><li><?php _e('Product_name', 'ldd-directory-lite'); ?>：<?php echo  ldl_get_meta( 'product_name' ); ?></li><?php endif; ?>
+							   <?php if ( ldl_get_meta( 'the_amount_of_financing' )): ?><li><?php _e('The_amount_of_financing', 'ldd-directory-lite'); ?>：<?php echo  ldl_get_meta( 'the_amount_of_financing' ); ?></li><?php endif; ?>
+							   <?php if ( ldl_get_meta( 'the_date_of_financing' )): ?><li><?php _e('The_date_of_financing', 'ldd-directory-lite'); ?>：<?php echo  ldl_get_meta( 'the_date_of_financing' ); ?></li><?php endif; ?>
+							   <?php if ( ldl_get_meta( 'the_times_of_financing' )): ?><li><?php _e('The_times_of_financing', 'ldd-directory-lite'); ?>：<?php echo  ldl_get_meta( 'the_times_of_financing' ); ?></li><?php endif; ?>
                             </ul>
                         </div>
 

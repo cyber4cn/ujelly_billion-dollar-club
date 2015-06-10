@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-04-26 15:02+0800\n"
+"PO-Revision-Date: 2015-05-24 08:45+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "X-Generator: Poedit 1.7.6\n"
@@ -88,7 +88,7 @@ msgstr ""
 
 #: import-lddbd.php:617
 msgid "Import Data."
-msgstr ""
+msgstr "导入数据。"
 
 #: import-lddbd.php:618
 msgid "If you do not wish to import your existing data, you can"
@@ -368,15 +368,15 @@ msgstr ""
 
 #: includes/admin/metaboxes.php:33 templates/panel-general.php:28
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #: includes/admin/metaboxes.php:34
 msgid "Owner"
-msgstr ""
+msgstr "创始人"
 
 #: includes/admin/metaboxes.php:70
 msgid "Location"
-msgstr ""
+msgstr "公司地址"
 
 #: includes/admin/metaboxes.php:98
 msgid ""
@@ -392,18 +392,18 @@ msgstr ""
 #: includes/admin/metaboxes.php:115 templates/edit-social.php:16
 #: templates/panel-meta.php:36
 msgid "Website"
-msgstr ""
+msgstr "网站地址"
 
 #: includes/admin/metaboxes.php:116
 msgid ""
 "Valid examples include; <code>mywebsite.net</code>, <code>www.business.com</"
 "code>, or <code>www.hosting.com/mysite/mypage.html</code>"
-msgstr ""
+msgstr "网址，如<code>http://www.ucai.cn</code>"
 
 #: includes/admin/metaboxes.php:121 templates/edit-social.php:24
 #: templates/panel-meta.php:44
 msgid "Facebook"
-msgstr ""
+msgstr "微信公众号"
 
 #: includes/admin/metaboxes.php:122
 msgid ""
@@ -414,7 +414,7 @@ msgstr ""
 #: includes/admin/metaboxes.php:127 templates/edit-social.php:32
 #: templates/panel-meta.php:52
 msgid "Twitter"
-msgstr ""
+msgstr "微博地址"
 
 #: includes/admin/metaboxes.php:128
 msgid ""
@@ -1171,15 +1171,15 @@ msgstr ""
 
 #: includes/shortcodes/_manage.php:97 includes/shortcodes/_submit.php:332
 msgid "There was a problem uploading your logo. Please try again!"
-msgstr ""
+msgstr "上传Logo失败，请重试"
 
 #: includes/shortcodes/_submit.php:304
 msgid "There was a problem creating your user account. Please try again later."
-msgstr ""
+msgstr "创建账号失败，请重试"
 
 #: includes/shortcodes/_submit.php:311
 msgid "There was a problem creating your listing. Please try again later."
-msgstr ""
+msgstr "创新本公司介绍失败，请重试"
 
 #: ldd-directory-lite.php:183
 msgid "Submit a Listing"
@@ -1197,7 +1197,7 @@ msgstr ""
 
 #: templates/contact-sidebar.php:2
 msgid "Send a Message"
-msgstr ""
+msgstr "发送消息"
 
 #: templates/contact-sidebar.php:12
 msgid "Your Name"
@@ -1209,23 +1209,23 @@ msgstr "您的姓名："
 
 #: templates/contact-sidebar.php:21
 msgid "Your Email Address"
-msgstr ""
+msgstr "电子邮件地址"
 
 #: templates/contact-sidebar.php:24
 msgid "Your email..."
-msgstr ""
+msgstr "电子邮件..."
 
 #: templates/contact-sidebar.php:31
 msgid "Message Subject"
-msgstr ""
+msgstr "消息主题"
 
 #: templates/contact-sidebar.php:34
 msgid "What is this in regards to?"
-msgstr ""
+msgstr "这是啥东东？"
 
 #: templates/contact-sidebar.php:40
 msgid "Message"
-msgstr ""
+msgstr "消息"
 
 #: templates/contact-sidebar.php:41
 msgid "Enter your message here."
@@ -1245,23 +1245,23 @@ msgstr ""
 
 #: templates/contact-sidebar.php:70
 msgid "Please enter a valid name."
-msgstr ""
+msgstr "请输入公司名字"
 
 #: templates/contact-sidebar.php:76
 msgid "Please enter a valid email address."
-msgstr ""
+msgstr "请输入正确的邮件地址"
 
 #: templates/contact-sidebar.php:81
 msgid "Please enter a valid subject."
-msgstr ""
+msgstr "请输入一个合适的主题"
 
 #: templates/contact-sidebar.php:87
 msgid "Please enter a longer message."
-msgstr ""
+msgstr "写得更多一点吧"
 
 #: templates/contact-sidebar.php:93
 msgid "That doesn't appear correct."
-msgstr ""
+msgstr "看起来不对。"
 
 #: templates/edit-details.php:16 templates/panel-general.php:12
 msgid "Title"
@@ -1269,7 +1269,7 @@ msgstr "公司名称"
 
 #: templates/edit-details.php:23 templates/panel-general.php:19
 msgid "Category"
-msgstr "分类"
+msgstr "领域"
 
 #: templates/edit-details.php:32 templates/panel-general.php:37
 msgid "Description"
@@ -1334,19 +1334,19 @@ msgstr "选择新Logo"
 
 #: templates/edit-social.php:18 templates/panel-meta.php:38
 msgid "Examples include; 'http://www.yoursite.com', 'mysite.org'"
-msgstr ""
+msgstr "网址，如<code>http://www.ucai.cn</code>"
 
 #: templates/edit-social.php:26 templates/panel-meta.php:46
 msgid ""
 "Help locating and customizing your <a href=\"https://www.facebook.com/help/"
 "www/329992603752372\" title=\"Your Facebook Web Address | Facebook Help Center"
 "\">Facebook profile URL</a>"
-msgstr ""
+msgstr "新信公众号名称"
 
 #: templates/edit-social.php:34 templates/panel-meta.php:54
 msgid ""
 "This will always be similar to 'https://twitter.com/<strong>username</strong>'"
-msgstr ""
+msgstr "新浪微博地址，比如:<code>http://weibo.com/p/1006063226295031</code>"
 
 #: templates/edit-social.php:40 templates/panel-meta.php:60
 msgid "Linkedin"
@@ -1447,7 +1447,7 @@ msgid ""
 "The following information will help generate more traffic for your organization, "
 "the more the better. Your email address is not publicly available, instead a "
 "contact form will be embedded with your listing."
-msgstr ""
+msgstr "提供更多的公司信息"
 
 #: templates/submit-tos.php:4
 msgid "By submitting, you agree your listing abides by our terms of service."
@@ -1492,3 +1492,44 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://www.lddwebdesign.com"
 msgstr ""
+
+#Please provide the lastest valuation of your company.
+msgid "Please provide the lastest valuation of your company."
+msgstr "请提供公司估值"
+
+#Please provide product name of your company.
+msgid "Please provide product name of your company."
+msgstr "公司的产品名字是？"
+
+#'Please provide the_amount_of_financing of your company.'
+msgid "Please provide the_amount_of_financing of your company."
+msgstr "当次融资额"
+
+#'Please provide the_date_of_financing of your company.'
+msgid "Please provide the_date_of_financing of your company."
+msgstr "融资日期"
+
+#'Please provide the_times_of_financing of your company.'
+msgid "Please provide the_times_of_financing of your company."
+msgstr "融资次数"
+
+#Valuation
+msgid "Valuation"
+msgstr "估值"
+
+#Product_name
+msgid "Product_name"
+msgstr "产品名"
+
+#The_amount_of_financing
+msgid "The_amount_of_financing"
+msgstr "当次融资额"
+
+#The_date_of_financing
+msgid "The_date_of_financing"
+msgstr "融资日期"
+
+#The_times_of_financing
+msgid "The_times_of_financing"
+msgstr "融资次数"
+
