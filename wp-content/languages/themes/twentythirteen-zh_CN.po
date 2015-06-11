@@ -1,23 +1,66 @@
-# Copyright (C) 2013 the WordPress team
-# This file is distributed under the GNU General Public License v2 or later.
+# Translation of Twenty Thirteen in Chinese (China)
+# This file is distributed under the same license as the Twenty Thirteen package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Twenty Thirteen 1.4\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tags/twentythirteen\n"
-"POT-Creation-Date: 2014-12-18 16:59:50+00:00\n"
-"PO-Revision-Date: 2015-04-23 01:37-0000\n"
-"Last-Translator: Jimmy Xu <me@jimmyxu.org>\n"
-"Language-Team: WordPress China\n"
-"Language: zh_CN\n"
+"PO-Revision-Date: 2015-04-23 01:39:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.7.6\n"
+"X-Generator: GlotPress/1.0-alpha-1000\n"
+"Project-Id-Version: Twenty Thirteen\n"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentythirteen/"
+msgstr "https://wordpress.org/themes/twentythirteen/"
+
+#. Author URI of the plugin/theme
+msgid "https://wordpress.org/"
+msgstr "https://cn.wordpress.org/"
+
+#. translators: %s: Name of current post
+#: content-aside.php:16 content-audio.php:27 content-chat.php:26
+#: content-gallery.php:27 content-image.php:26 content-link.php:27
+#: content-quote.php:16 content-status.php:16 content-video.php:26
+#: content.php:44 functions.php:478
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "继续阅读%s <span class=\"meta-nav\">&rarr;</span>"
 
 #: 404.php:16
 msgid "Not Found"
 msgstr "未找到"
+
+#. Description of the plugin/theme
+msgid "The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small."
+msgstr "WordPress的2013年主题将我们带回博客。它有各式各样的文章格式，每种都独一无二。设计细节比比皆是，从充满活力的配色方案到与之匹配的标题图片，优美的字体和图标，还有在任何大小的设备上都能完美展示的灵活的版式。"
+
+#: functions.php:233
+msgid "Appears in the footer section of the site."
+msgstr "在网站页脚区域出现。"
+
+#: functions.php:231
+msgid "Main Widget Area"
+msgstr "主挂件区"
+
+#: functions.php:241
+msgid "Secondary Widget Area"
+msgstr "从挂件区"
+
+#: functions.php:243
+msgid "Appears on posts and pages in the sidebar."
+msgstr "在文章和页面边栏出现"
+
+#: image.php:38
+msgid "Link to full-size image"
+msgstr "到全尺寸图像的链接"
+
+#: image.php:39
+msgid "Full resolution"
+msgstr "全尺寸"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Thirteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Thirteen要求WordPress 3.6版或以上，您在运行%s版。请升级并重试。"
 
 #: 404.php:21
 msgid "This is somewhat embarrassing, isn&rsquo;t it?"
@@ -91,14 +134,6 @@ msgstr "较新评论 &rarr;"
 msgid "Comments are closed."
 msgstr "评论已关闭。"
 
-#. translators: %s: Name of current post
-#: content-aside.php:16 content-audio.php:27 content-chat.php:26
-#: content-gallery.php:27 content-image.php:26 content-link.php:27
-#: content-quote.php:16 content-status.php:16 content-video.php:26
-#: content.php:44 functions.php:478
-msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr "继续阅读%s <span class=\"meta-nav\">&rarr;</span>"
-
 #: content-aside.php:20 content-audio.php:31 content-chat.php:30
 #: content-gallery.php:31 content-image.php:30 content-link.php:31
 #: content-quote.php:20 content-status.php:20 content-video.php:30
@@ -133,26 +168,20 @@ msgid "Nothing Found"
 msgstr "未找到"
 
 #: content-none.php:18
-msgid ""
-"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "准备好发布第一篇文章了？<a href=\"%1$s\">从这里开始</a>。"
 
 #: content-none.php:22
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with "
-"different keywords."
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
 msgstr "抱歉，没有符合您搜索条件的结果。请换其它关键词再试。"
 
 #: content-none.php:27
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "我们可能无法找到您需要的内容。或许搜索功能可以帮到您。"
 
-#. Author URI of the plugin/theme
 #: footer.php:19
-msgid "https://wordpress.org/"
-msgstr "https://cn.wordpress.org/"
+msgid "http://wordpress.org/"
+msgstr "http://cn.wordpress.org/"
 
 #: footer.php:19
 msgid "Semantic Personal Publishing Platform"
@@ -166,17 +195,16 @@ msgstr "自豪地采用%s"
 msgid "Navigation Menu"
 msgstr "导航菜单"
 
-#. Translators: If there are characters in your language that are not
-#. * supported by Source Sans Pro, translate this to 'off'. Do not translate
-#. * into your own language.
+#. Translators: If there are characters in your language that are not supported
+#. by Source Sans Pro, translate this to 'off'. Do not translate into your own
+#. language.
 #: functions.php:128
 msgctxt "Source Sans Pro font: on or off"
 msgid "on"
 msgstr "off"
 
-#. Translators: If there are characters in your language that are not
-#. * supported by Bitter, translate this to 'off'. Do not translate into your
-#. * own language.
+#. Translators: If there are characters in your language that are not supported
+#. by Bitter, translate this to 'off'. Do not translate into your own language.
 #: functions.php:134
 msgctxt "Bitter font: on or off"
 msgid "on"
@@ -185,22 +213,6 @@ msgstr "off"
 #: functions.php:218
 msgid "Page %s"
 msgstr "第%s页"
-
-#: functions.php:231
-msgid "Main Widget Area"
-msgstr "主挂件区"
-
-#: functions.php:233
-msgid "Appears in the footer section of the site."
-msgstr "在网站页脚区域出现。"
-
-#: functions.php:241
-msgid "Secondary Widget Area"
-msgstr "从挂件区"
-
-#: functions.php:243
-msgid "Appears on posts and pages in the sidebar."
-msgstr "在文章和页面边栏出现"
 
 #: functions.php:266
 msgid "Posts navigation"
@@ -259,22 +271,8 @@ msgid "Skip to content"
 msgstr "跳至内容"
 
 #: image.php:22
-msgid ""
-"<span class=\"attachment-meta\">Published on <time class=\"entry-date\" "
-"datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" "
-"rel=\"gallery\">%5$s</a></span>"
-msgstr ""
-"<span class=\"attachment-meta\">发表于<time class=\"entry-date\" datetime="
-"\"%1$s\">%2$s</time>，属于<a href=\"%3$s\" title=\"回到%4$s\" rel=\"gallery"
-"\">%5$s</a></span>"
-
-#: image.php:38
-msgid "Link to full-size image"
-msgstr "到全尺寸图像的链接"
-
-#: image.php:39
-msgid "Full resolution"
-msgstr "全尺寸"
+msgid "<span class=\"attachment-meta\">Published on <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" rel=\"gallery\">%5$s</a></span>"
+msgstr "<span class=\"attachment-meta\">发表于<time class=\"entry-date\" datetime=\"%1$s\">%2$s</time>，属于<a href=\"%3$s\" title=\"回到%4$s\" rel=\"gallery\">%5$s</a></span>"
 
 #: image.php:51
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
@@ -283,13 +281,6 @@ msgstr "<span class=\"meta-nav\">&larr;</span> 早期文章"
 #: image.php:52
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr "较新文章 <span class=\"meta-nav\">&rarr;</span>"
-
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid ""
-"Twenty Thirteen requires at least WordPress version 3.6. You are running "
-"version %s. Please upgrade and try again."
-msgstr ""
-"Twenty Thirteen要求WordPress 3.6版或以上，您在运行%s版。请升级并重试。"
 
 #: inc/custom-header.php:49
 msgctxt "header image description"
@@ -322,28 +313,6 @@ msgstr "%s归档"
 msgid "Twenty Thirteen"
 msgstr "Twenty Thirteen"
 
-#. Theme URI of the plugin/theme
-msgid "https://wordpress.org/themes/twentythirteen/"
-msgstr "https://wordpress.org/themes/twentythirteen/"
-
-#. Description of the plugin/theme
-msgid ""
-"The 2013 theme for WordPress takes us back to the blog, featuring a full "
-"range of post formats, each displayed beautifully in their own unique way. "
-"Design details abound, starting with a vibrant color scheme and matching "
-"header images, beautiful typography and icons, and a flexible layout that "
-"looks great on any device, big or small."
-msgstr ""
-"WordPress的2013年主题将我们带回博客。它有各式各样的文章格式，每种都独一无"
-"二。设计细节比比皆是，从充满活力的配色方案到与之匹配的标题图片，优美的字体"
-"和图标，还有在任何大小的设备上都能完美展示的灵活的版式。"
-
 #. Author of the plugin/theme
 msgid "the WordPress team"
 msgstr "WordPress团队"
-
-#~ msgid "Not found"
-#~ msgstr "未找到"
-
-#~ msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-#~ msgstr "继续阅读 <span class=\"meta-nav\">&rarr;</span>"

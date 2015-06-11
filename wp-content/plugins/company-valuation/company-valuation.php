@@ -39,15 +39,14 @@ function create_company_valuation_table()
     register_company_valuation_table();
     if ($wpdb->get_var("SHOW TABLES LIKE '$wpdb->company_valuation'") != $wpdb->company_valuation):
         $sql_create_table = " CREATE TABLE {$wpdb->company_valuation} (`id` bigint(20) NOT NULL AUTO_INCREMENT, 
-        company_id bigint(20) unsigned NOT NULL default '0',  
-        valuation double NOT NULL default '0',  
-        valuation_date datetime NOT NULL default '0000-00-00 00:00:00',  
-        totale_quity_funding double NOT NULL default '0',  
-        rounds_offunding bigint(20) unsigned NOT NULL default '0',  
-        product_name varchar(100) NOT NULL DEFAULT '',
-        oonline_date datetime NOT NULL default '0000-00-00 00:00:00',
-        PRIMARY KEY  (id),  
-        KEY `company_id` (`company_id`) 
+        company_name varchar(255) default '',  
+        valuation varchar(255) default '',  
+        valuation_date varchar(255) default '',  
+        totale_quity_funding varchar(255) default '',  
+        rounds_offunding varchar(255) default '',  
+        product_name varchar(255) DEFAULT '',
+        oonline_date varchar(255) default '',
+        PRIMARY KEY  (id)
 		) $charset_collate; ";
         dbDelta($sql_create_table);
     endif;
@@ -57,11 +56,11 @@ function coolwp_get_valuation_table_columns()
 {
     return array(
         'id' => '%d',
-        'company_id' => '%d',
-        'valuation' => '%f',
+        'company_name' => '%s',
+        'valuation' => '%s',
         'valuation_date' => '%s',
-        'totale_quity_funding' => '%f',
-        'rounds_offunding' => '%d',
+        'totale_quity_funding' => '%s',
+        'rounds_offunding' => '%s',
         'product_name' => '%s',
         'oonline_date' => '%s',
     );
@@ -89,8 +88,6 @@ function coolwp_insert_valuation($data = array())
         
         
     //Convert activity date from local timestamp to GMT mysql format   将本地时间戳转换为 mysql(GMT) 格式
-    $data['valuation_date'] = date_i18n('Y-m-d', strtotime($data['valuation_date']), true);
-    $data['oonline_date'] = date_i18n('Y-m-d', strtotime($data['oonline_date']), true);
  
     //Initialise column format array   初始化列(字段，下同)格式数组
     $column_formats = coolwp_get_valuation_table_columns();
@@ -127,8 +124,6 @@ function coolwp_update_valuation($id, $data = array())
     if (empty($id))
         return false;
     //Convert activity date from local timestamp to GMT mysql format   时间戳转换
-    $data['valuation_date'] = date_i18n('Y-m-d', strtotime($data['valuation_date']), true);
-    $data['oonline_date'] = date_i18n('Y-m-d', strtotime($data['oonline_date']), true);
     //Initialise column format array   初始化格式数组
     $column_formats = coolwp_get_valuation_table_columns();
     //Force fields to lower case   强制小写
@@ -152,11 +147,8 @@ function coolwp_update_valuation($id, $data = array())
  * $query is an array which can contain the following keys:
  *
  * 'fields' - an array of columns to include in returned roles. Or 'count' to count rows. Default: empty (all fields).
- * 'orderby' - datetime, company_id or id. Default: datetime.
+ * 'orderby' - datetime,  or id. Default: datetime.
  * 'order' - asc or desc
- * 'company_id' - company ID to match, or an array of company IDs
- * 'since' - timestamp. Return only activities after this date. Default false, no restriction.
- * 'until' - timestamp. Return only activities up to this date. Default false, no restriction.
  *
  * @param $query Query array
  * @return array Array of matching valuations. False on error.
@@ -164,11 +156,8 @@ function coolwp_update_valuation($id, $data = array())
  * $query 是一个包含了以下键的数组:
  *
  * 'fields' - 列的数组中返回的角色，比如：用以统计有多少条记录的 'count' . 默认: empty (全部).
- * 'orderby' - datetime, company_id 或 id. 默认: datetime.
+ * 'orderby' - datetime,  或 id. 默认: datetime.
  * 'order' - asc 或 desc
- * 'company_id' - 匹配的 company ID , 或是一个公司ID数组.
- * 'since' - timestamp.返回某个日期时间之后的事件记录. 默认： false(没有限制).
- * 'until' - timestamp.返回某个日期时间之前的事件记录. 默认： false(没有限制).
  *
  * @param $query 查询数组
  * @return array 符合查询条件的事件或者False.
@@ -181,9 +170,6 @@ function coolwp_get_valuations($query = array())
         'fields' => array(),
         'orderby' => 'datetime',
         'order' => 'desc',
-        'company_id' => false,
-        'since' => false,
-        'until' => false,
         'number' => 10,
         'offset' => 0
     );
@@ -229,23 +215,8 @@ function coolwp_get_valuations($query = array())
     $where_sql = 'WHERE 1=1';
     if (!empty($id))
         $where_sql.= $wpdb->prepare(' AND id=%d', $id);
-    if (!empty($company_id))
-    {
-        //Force $company_id to be an array   强制$company_id 为一个数组
-        if (!is_array($company_id))
-            $company_id = array(
-                $company_id
-            );
-        $company_id = array_map('absint', $company_id); //Cast as positive integers   转换为正整数
-        $company_id__in = implode(',', $company_id);
-        $where_sql.= " AND company_id IN($company_id__in)";
-    }
-    $since = absint($since);
-    $until = absint($until);
-    if (!empty($since))
-        $where_sql.= $wpdb->prepare(' AND valuation_date >= %s', date_i18n('Y-m-d', $since, true));
-    if (!empty($until))
-        $where_sql.= $wpdb->prepare(' AND valuation_date <= %s', date_i18n('Y-m-d', $until, true));
+    
+    
     /* SQL Order */
     //Whitelist order  白名单
     $order = strtoupper($order);
@@ -256,12 +227,6 @@ function coolwp_get_valuations($query = array())
             $order_sql = "ORDER BY id $order";
             break;
 
-        case 'company_id':
-            $order_sql = "ORDER BY company_id $order";
-            break;
-
-        case 'datetime':
-            $order_sql = "ORDER BY valuation_date $order";
         default:
             break;
     }

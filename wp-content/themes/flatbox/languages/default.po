@@ -1,0 +1,751 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FlatBox\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-09 11:06+0800\n"
+"PO-Revision-Date: 2014-06-09 11:06+0800\n"
+"Last-Translator: jack cai <hi@caibaojian.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: ../404.php:27
+msgid "Most Used Categories"
+msgstr ""
+
+#: ../404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: ../archive.php:27
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: ../archive.php:30
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ../archive.php:33
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ../archive.php:36
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ../archive.php:39
+msgid "Asides"
+msgstr ""
+
+#: ../archive.php:42
+msgid "Galleries"
+msgstr ""
+
+#: ../archive.php:45
+msgid "Images"
+msgstr ""
+
+#: ../archive.php:48
+msgid "Videos"
+msgstr ""
+
+#: ../archive.php:51
+msgid "Quotes"
+msgstr ""
+
+#: ../archive.php:54
+msgid "Links"
+msgstr ""
+
+#: ../archive.php:57
+msgid "Statuses"
+msgstr ""
+
+#: ../archive.php:60
+msgid "Audios"
+msgstr ""
+
+#: ../archive.php:63
+msgid "Chats"
+msgstr ""
+
+#: ../archive.php:66
+#: ../sidebar.php:16
+msgid "Archives"
+msgstr ""
+
+#: ../comments.php:35
+#: ../comments.php:53
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:36
+#: ../comments.php:54
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:37
+#: ../comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:19
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../content-page.php:18
+#: ../content-single.php:40
+#: ../content.php:60
+msgid "Pages:"
+msgstr ""
+
+#: ../content-page.php:23
+#: ../content-single.php:83
+#: ../content.php:96
+msgid "<i class=\"genericon genericon-edit\"></i> Edit"
+msgstr ""
+
+#: ../content-single.php:52
+#: ../content-single.php:55
+#: ../content.php:73
+#: ../content.php:83
+msgid ", "
+msgstr ""
+
+#: ../content-single.php:60
+#, php-format
+msgid "<i class=\"genericon genericon-tag\"></i> %2$s. <i class=\"genericon genericon-link\"></i> <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../content-single.php:62
+#, php-format
+msgid "<i class=\"genericon genericon-link\"></i> <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../content-single.php:68
+#, php-format
+msgid "<i class=\"genericon genericon-category\"></i> %1$s  <i class=\"genericon genericon-tag\"></i> %2$s. <i class=\"genericon genericon-link\"></i> <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../content-single.php:70
+#, php-format
+msgid "<i class=\"genericon genericon-category\"></i> %1$s. <i class=\"genericon genericon-link\"></i> <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../content.php:46
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../content.php:57
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../content.php:77
+#, php-format
+msgid "<i class=\"genericon genericon-category\"></i> %1$s"
+msgstr ""
+
+#: ../content.php:87
+#, php-format
+msgid "<i class=\"genericon genericon-tag\"></i> %1$s"
+msgstr ""
+
+#: ../content.php:93
+msgid "<i class=\"genericon genericon-comment\"></i> 0"
+msgstr ""
+
+#: ../content.php:93
+msgid "<i class=\"genericon genericon-comment\"></i> 1"
+msgstr ""
+
+#: ../content.php:93
+msgid "<i class=\"genericon genericon-comment\"></i> %"
+msgstr ""
+
+#: ../footer.php:60
+msgid "Theme Layout"
+msgstr ""
+
+#: ../footer.php:66
+msgid "Color Scheme"
+msgstr ""
+
+#: ../functions.php:50
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:51
+msgid "Footer Menu"
+msgstr ""
+
+#: ../functions.php:79
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions.php:88
+msgid "Prefooter Area One"
+msgstr ""
+
+#: ../functions.php:98
+msgid "Prefooter Area Two"
+msgstr ""
+
+#: ../functions.php:108
+msgid "Prefooter Area Three"
+msgstr ""
+
+#: ../functions.php:182
+msgid "Support"
+msgstr ""
+
+#: ../functions.php:184
+msgid "The best way to contact me with <b>support questions</b> and <b>bug reports</b> is via the"
+msgstr ""
+
+#: ../functions.php:184
+msgid "WordPress support forums"
+msgstr ""
+
+#: ../functions.php:185
+msgid "If you like this theme, I'd appreciate if you could "
+msgstr ""
+
+#: ../functions.php:186
+msgid "rate FlatBox at WordPress.org"
+msgstr ""
+
+#: ../functions.php:186
+msgid "Thanks!"
+msgstr ""
+
+#: ../header.php:41
+msgid "Menu"
+msgstr ""
+
+#: ../header.php:42
+msgid "Skip to content"
+msgstr ""
+
+#: ../search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../sidebar.php:23
+msgid "Meta"
+msgstr ""
+
+#: ../options.php:31
+msgid "default"
+msgstr ""
+
+#: ../options.php:32
+msgid "light"
+msgstr ""
+
+#: ../options.php:33
+msgid "blue"
+msgstr ""
+
+#: ../options.php:34
+msgid "coffee"
+msgstr ""
+
+#: ../options.php:35
+msgid "ectoplasm"
+msgstr ""
+
+#: ../options.php:36
+msgid "midnight"
+msgstr ""
+
+#: ../options.php:37
+msgid "ocean"
+msgstr ""
+
+#: ../options.php:38
+msgid "sunrise"
+msgstr ""
+
+#: ../options.php:40
+#: ../options.php:100
+msgid "No"
+msgstr ""
+
+#: ../options.php:40
+#: ../options.php:100
+msgid "Yes"
+msgstr ""
+
+#: ../options.php:52
+msgid "Display excerpt"
+msgstr ""
+
+#: ../options.php:53
+#: ../options.php:66
+msgid "Display thumbnail"
+msgstr ""
+
+#: ../options.php:54
+msgid "Display date"
+msgstr ""
+
+#: ../options.php:55
+msgid "Display author"
+msgstr ""
+
+#: ../options.php:56
+msgid "Display comments"
+msgstr ""
+
+#: ../options.php:57
+msgid "Display categories"
+msgstr ""
+
+#: ../options.php:58
+msgid "Display tags"
+msgstr ""
+
+#: ../options.php:67
+msgid "Display author bio"
+msgstr ""
+
+#: ../options.php:68
+msgid "Display related posts"
+msgstr ""
+
+#: ../options.php:104
+msgid "Basic Settings"
+msgstr ""
+
+#: ../options.php:107
+msgid "Color scheme"
+msgstr ""
+
+#: ../options.php:108
+msgid "General color scheme."
+msgstr ""
+
+#: ../options.php:129
+msgid "Custom logo image"
+msgstr ""
+
+#: ../options.php:130
+msgid "You can upload custom image for your website logo (optional)."
+msgstr ""
+
+#: ../options.php:136
+msgid "Custom favicon"
+msgstr ""
+
+#: ../options.php:137
+msgid "Small 16x16px pictures you see beside URL in browser's address bar. Image should be named <b>favicon.ico</b>"
+msgstr ""
+
+#: ../options.php:143
+msgid "Archive display options"
+msgstr ""
+
+#: ../options.php:151
+msgid "Single display options"
+msgstr ""
+
+#: ../options.php:159
+msgid "Enable the users to set color scheme in the front end"
+msgstr ""
+
+#: ../options.php:161
+msgid "Setting to \"Yes\" will show the seting options in the front end."
+msgstr ""
+
+#: ../options.php:166
+msgid "Typography"
+msgstr ""
+
+#: ../options.php:169
+msgid "Main Body Text"
+msgstr ""
+
+#: ../options.php:170
+msgid "Used in P tags"
+msgstr ""
+
+#: ../options.php:176
+msgid "Heading Color"
+msgstr ""
+
+#: ../options.php:177
+msgid "Color for all headings (h1-h6)"
+msgstr ""
+
+#: ../options.php:182
+msgid "Link Color"
+msgstr ""
+
+#: ../options.php:183
+#: ../options.php:189
+msgid "Default used if no color is selected"
+msgstr ""
+
+#: ../options.php:188
+msgid "Link:hover Color"
+msgstr ""
+
+#: ../options.php:193
+msgid "Social"
+msgstr ""
+
+#: ../options.php:196
+msgid "Add full URL for your social network profiles"
+msgstr ""
+
+#: ../options.php:197
+msgid "Facebook"
+msgstr ""
+
+#: ../options.php:204
+msgid "Twitter"
+msgstr ""
+
+#: ../options.php:210
+msgid "Google+"
+msgstr ""
+
+#: ../options.php:216
+msgid "Youtube"
+msgstr ""
+
+#: ../options.php:222
+msgid "LinkedIn"
+msgstr ""
+
+#: ../options.php:228
+msgid "Pinterest"
+msgstr ""
+
+#: ../options.php:234
+msgid "RSS Feed"
+msgstr ""
+
+#: ../options.php:240
+msgid "Tumblr"
+msgstr ""
+
+#: ../options.php:246
+msgid "Flickr"
+msgstr ""
+
+#: ../options.php:252
+msgid "Instagram"
+msgstr ""
+
+#: ../options.php:258
+msgid "Dribbble"
+msgstr ""
+
+#: ../options.php:264
+msgid "Skype"
+msgstr ""
+
+#: ../options.php:270
+msgid "Other"
+msgstr ""
+
+#: ../options.php:273
+msgid "Custom CSS"
+msgstr ""
+
+#: ../options.php:274
+msgid "Additional CSS"
+msgstr ""
+
+#: ../inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../inc/extras.php:96
+#, php-format
+msgid "Theme: %1$s by %2$s, Powered by %3$s"
+msgstr ""
+
+#: ../inc/extras.php:96
+msgid "http://www.wpbars.com/"
+msgstr ""
+
+#: ../inc/extras.php:96
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: ../inc/extras.php:108
+msgid "Follow us on "
+msgstr ""
+
+#: ../inc/template-tags.php:46
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../inc/template-tags.php:47
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../inc/template-tags.php:54
+msgid "Posts navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:78
+msgid "Post navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:115
+msgid "<i class=\"genericon genericon-user\"></i>"
+msgstr ""
+
+#: ../inc/template-tags.php:117
+#: ../inc/template-tags.php:161
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../inc/related.php:5
+msgid "Related Posts"
+msgstr ""
+
+#: ../inc/includes/class-options-framework-admin.php:85
+#: ../inc/includes/class-options-framework-admin.php:86
+#: ../inc/includes/class-options-framework-admin.php:307
+msgid "Theme Options"
+msgstr ""
+
+#: ../inc/includes/class-options-framework-admin.php:174
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: ../inc/includes/class-options-framework-admin.php:205
+msgid "Default options restored."
+msgstr ""
+
+#: ../inc/includes/class-options-framework-admin.php:259
+msgid "Options saved."
+msgstr ""
+
+#: ../inc/includes/class-options-media-uploader.php:63
+msgid "No file chosen"
+msgstr ""
+
+#: ../inc/includes/class-options-media-uploader.php:66
+#: ../inc/includes/class-options-media-uploader.php:119
+msgid "Upload"
+msgstr ""
+
+#: ../inc/includes/class-options-media-uploader.php:68
+#: ../inc/includes/class-options-media-uploader.php:120
+msgid "Remove"
+msgstr ""
+
+#: ../inc/includes/class-options-media-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: ../inc/includes/class-options-media-uploader.php:95
+msgid "View File"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:241
+msgid "No Repeat"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:242
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:243
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:244
+msgid "Repeat All"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:257
+msgid "Top Left"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:258
+msgid "Top Center"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:259
+msgid "Top Right"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:260
+msgid "Middle Left"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:261
+msgid "Middle Center"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:262
+msgid "Middle Right"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:263
+msgid "Bottom Left"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:264
+msgid "Bottom Center"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:265
+msgid "Bottom Right"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:278
+msgid "Scroll Normally"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:279
+msgid "Fixed in Place"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:353
+msgid "Normal"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:354
+msgid "Italic"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:355
+msgid "Bold"
+msgstr ""
+
+#: ../inc/includes/class-options-sanitization.php:356
+msgid "Bold Italic"
+msgstr ""
+
+#: ../inc/widgets/archives-widget.php:13
+msgid "Displays a list of monthly archives, categories or pages in two columns."
+msgstr ""
+
+#: ../inc/widgets/archives-widget.php:19
+msgid "FlatBox: Archives / Categories / Pages List"
+msgstr ""
+
+#: ../inc/widgets/archives-widget.php:100
+#: ../inc/widgets/social-widget.php:92
+msgid "Title"
+msgstr ""
+
+#: ../inc/widgets/archives-widget.php:107
+msgid "Type"
+msgstr ""
+
+#: ../inc/widgets/archives-widget.php:109
+msgid "archives"
+msgstr ""
+
+#: ../inc/widgets/archives-widget.php:110
+msgid "categories"
+msgstr ""
+
+#: ../inc/widgets/archives-widget.php:111
+msgid "pages"
+msgstr ""
+
+#: ../inc/widgets/social-widget.php:13
+msgid "Displays icons to social media profiles."
+msgstr ""
+
+#: ../inc/widgets/social-widget.php:19
+msgid "FlatBox: Social media icons"
+msgstr ""
+
+#: ../inc/widgets/social-widget.php:96
+msgid "Enter full URL. If you don't want to display element, leave it's URL field empty."
+msgstr ""
+
+#: ../inc/widgets/social-widget.php:100
+msgid "URL address of your Facebook profile or page"
+msgstr ""
+
+#: ../inc/widgets/social-widget.php:106
+msgid "URL address of your Twitter profile"
+msgstr ""
+
+#: ../inc/widgets/social-widget.php:112
+msgid "URL address of your Google+ profile"
+msgstr ""
+
+#: ../inc/widgets/social-widget.php:118
+msgid "URL address of your Pinterest profile"
+msgstr ""
+
+#: ../inc/widgets/social-widget.php:124
+msgid "URL address of your Instagram profile"
+msgstr ""
+
+#: ../inc/widgets/social-widget.php:130
+msgid "URL address of your YouTube channel"
+msgstr ""
+
+#: ../inc/widgets/social-widget.php:136
+msgid "URL address of your Flickr profile page"
+msgstr ""
+
+#: ../inc/widgets/social-widget.php:142
+msgid "URL address of your RSS feed"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:11
+#: ../inc/widgets/widget-social.php:12
+msgid "FlatBox Social Widget"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:17
+#: ../inc/widgets/widget-social.php:46
+msgid "Follow us"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:49
+msgid "Title "
+msgstr ""
+
